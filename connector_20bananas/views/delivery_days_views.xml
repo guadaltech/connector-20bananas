@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+    <record id="delivery_days_view_form" model="ir.ui.view">
+        <field name="name">delivery.days.form</field>
+        <field name="model">delivery.days</field>
+        <field name="arch" type="xml">
+            <form create="false" edit="false">
+                <group>
+                    <field name="name" />
+                </group>
+            </form>
+        </field>
+    </record>
+    <record id="delivery_days_view_tree" model="ir.ui.view">
+        <field name="name">delivery.days.tree</field>
+        <field name="model">delivery.days</field>
+        <field name="arch" type="xml">
+            <tree create="false">
+                <field name="name" />
+            </tree>
+        </field>
+    </record>
+    <record id="delivery_days_view_action" model="ir.actions.act_window">
+        <field name="name">Delivery Days</field>
+        <field name="res_model">delivery.days</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+   <menuitem
+        id="delivery_days_menu"
+        action="delivery_days_view_action"
+        parent="sale.menu_sale_general_settings"
+    />
+</odoo>

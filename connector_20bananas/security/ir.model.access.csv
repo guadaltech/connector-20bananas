@@ -1,0 +1,8 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+bananas_connector_backend_access,bananas.connector.backend_access,connector-20_bananas.model_bananas_backend,base.group_erp_manager,1,1,1,1
+bananas_binding_res_partner,bananas.binding.res.partner_access,connector-20_bananas.model_bananas_binding_res_partner,base.group_erp_manager,1,1,1,1
+bananas_binding_product_product,bananas.binding.product.product_access,connector-20_bananas.model_bananas_binding_product_product,base.group_erp_manager,1,1,1,1
+bananas_binding_sale_order,bananas.binding.sale.order_access,connector-20_bananas.model_bananas_binding_sale_order,base.group_erp_manager,1,1,1,1
+bananas_binding_product_pricelist,bananas.binding.product.pricelist_access,connector-20_bananas.model_bananas_binding_product_pricelist,base.group_erp_manager,1,1,1,1
+bananas_binding_product_pricelist_item,bananas.binding.product.pricelist.item_access,connector-20_bananas.model_bananas_binding_product_pricelist_item,base.group_erp_manager,1,1,1,1
+delivery_days,delivery.days_access,connector-20_bananas.model_delivery_days,base.group_erp_manager,1,1,1,1

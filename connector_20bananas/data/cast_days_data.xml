@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+    <data>
+        <record id="cast_day_monday" model="delivery.days">
+            <field name="dayofweek">0</field>
+        </record>
+        <record id="cast_day_tuesday" model="delivery.days">
+            <field name="dayofweek">1</field>
+        </record>
+        <record id="cast_day_wednesday" model="delivery.days">
+            <field name="dayofweek">2</field>
+        </record>
+        <record id="cast_day_thursday" model="delivery.days">
+            <field name="dayofweek">3</field>
+        </record>
+        <record id="cast_day_friday" model="delivery.days">
+            <field name="dayofweek">4</field>
+        </record>
+        <record id="cast_day_saturday" model="delivery.days">
+            <field name="dayofweek">5</field>
+        </record>
+        <record id="cast_day_sunday" model="delivery.days">
+            <field name="dayofweek">6</field>
+        </record>
+    </data>
+</odoo>

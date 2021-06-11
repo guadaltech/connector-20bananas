@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+    <menuitem
+        id="bananas_root_menu"
+        name="Bananas"
+        parent="connector.menu_connector_root"
+    />
+
+    <menuitem id="bananas_items_menu" name="Bananas Items" parent="bananas_root_menu" />
+
+    <menuitem
+        id="bananas_operations_menu"
+        name="Bananas Operations"
+        parent="bananas_root_menu"
+    />
+</odoo>

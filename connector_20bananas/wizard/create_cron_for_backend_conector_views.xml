@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+    <record id="create_cron_bananas_backend_form" model="ir.ui.view">
+        <field name="name">create.cron.bananas.backend.form</field>
+        <field name="model">wizard.cron.bananas.conector</field>
+        <field name="arch" type="xml">
+            <form>
+                <sheet>
+                    <group col="2">
+                        <field name="name" />
+                        <field name="priority" />
+                        <field name="doall" />
+                        <field name="interval_num" />
+                        <field name="interval_type" />
+                        <field name="nextcall" />
+                    </group>
+                </sheet>
+                <footer>
+                    <button
+                        name="create_cron"
+                        string="Save"
+                        type="object"
+                        class="btn-primary"
+                    />
+                    <button special="cancel" string="Close" type="object" />
+                </footer>
+            </form>
+        </field>
+    </record>
+</odoo>

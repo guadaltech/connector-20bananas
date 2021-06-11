@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+    <record id="res_partner_cast_days_form" model="ir.ui.view">
+        <field name="name">res.partner.cast.day.form</field>
+        <field name="model">res.partner</field>
+        <field name="inherit_id" ref="product.view_partner_property_form" />
+        <field name="arch" type="xml">
+            <group name="sale" position="inside">
+                <field name="delivery_days_ids" widget="many2many_tags" />
+            </group>
+        </field>
+    </record>
+</odoo>

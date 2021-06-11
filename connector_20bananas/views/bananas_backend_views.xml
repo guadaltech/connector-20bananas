@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+    <record id="bananas_backend_view_form" model="ir.ui.view">
+        <field name="name">bananas.backend.view.form</field>
+        <field name="model">bananas.backend</field>
+        <field name="arch" type="xml">
+            <form>
+                <sheet>
+                    <group string="Basic Information">
+                        <field name="url" />
+                        <field name="api_key" />
+                    </group>
+                    <notebook>
+                        <page
+                            name="page_import"
+                            string="Imports Clients"
+                            class="oe_inline"
+                        >
+                            <group col="2">
+                                <group string="End Point">
+                                    <field name="endpoint_clients" />
+                                </group>
+                                <group string="Import Buttons" class="w-25">
+                                    <label
+                                        for="import_customers"
+                                        string="Import Clients"
+                                        class="oe_inline col-auto"
+                                    />
+                                    <button
+                                        name="import_customers"
+                                        type="object"
+                                        class="oe_highlight col-auto"
+                                        string="Import"
+                                    />
+                                    <label
+                                        for="cron_import_clients"
+                                        string="Automatice process"
+                                        class="oe_inline  mt-3"
+                                    />
+                                    <button
+                                        name="cron_import_clients"
+                                        type="object"
+                                        class="oe_highlight mt-3"
+                                        string="Automatice"
+                                    />
+                                </group>
+                            </group>
+                        </page>
+                        <page
+                            name="page_import"
+                            string="Imports Products"
+                            class="oe_inline"
+                        >
+                            <group col="2">
+                                <group string="End Point" class="text-left">
+                                    <field name="endpoint_products" />
+                                </group>
+                                <group string="Import Buttons" class="w-25">
+                                    <label
+                                        for="import_products"
+                                        string="Import Products"
+                                        class="oe_inline col-auto"
+                                    />
+                                    <button
+                                        name="import_products"
+                                        type="object"
+                                        class="oe_highlight"
+                                        string="Import"
+                                    />
+                                    <label
+                                        for="cron_import_products"
+                                        string="Automatice process"
+                                        class="oe_inline  mt-3"
+                                    />
+                                    <button
+                                        name="cron_import_products"
+                                        type="object"
+                                        class="oe_highlight mt-3"
+                                        string="Automatice"
+                                    />
+                                </group>
+                            </group>
+                        </page>
+                        <page
+                            name="page_import"
+                            string="Imports Sale Orders"
+                            class="oe_inline"
+                        >
+                            <group col="2">
+                                <group string="End Point" class="text-left">
+                                    <field name="endpoint_order_sale" />
+                                    <field name="date_of_order_sale" />
+                                </group>
+                                <group string="Import Buttons" class="w-25">
+                                    <label
+                                        for="import_orders"
+                                        string="Import Order Sale"
+                                        class="oe_inline col-auto"
+                                    />
+                                    <button
+                                        name="import_orders"
+                                        type="object"
+                                        class="oe_highlight col-auto"
+                                        string="Import"
+                                    />
+                                     <label
+                                        for="cron_import_orders"
+                                        string="Automatice process"
+                                        class="oe_inline  mt-3"
+                                    />
+                                    <button
+                                        name="cron_import_orders"
+                                        type="object"
+                                        class="oe_highlight mt-3"
+                                        string="Automatice"
+                                    />
+                                </group>
+                            </group>
+                        </page>
+                        <page
+                            name="page_import"
+                            string="Imports Rates"
+                            class="oe_inline"
+                        >
+                            <group col="2">
+                                <group string="End Point">
+                                    <field name="endpoint_product_pricelist" />
+                                    <field name="endpoint_product_pricelist_item" />
+                                    <field name="endpoint_product_pricelist_client" />
+                                </group>
+                                <group string="Import Buttons" class="w-25">
+                                    <group>
+                                        <label
+                                            for="import_rates"
+                                            string="Import Rate"
+                                            class="oe_inline"
+                                        />
+                                        <button
+                                            name="import_rates"
+                                            type="object"
+                                            class="oe_highlight"
+                                            string="Import"
+                                        />
+                                         <label
+                                            for="cron_import_rates"
+                                            string="Automatice process"
+                                            class="oe_inline  mt-3"
+                                        />
+                                    <button
+                                            name="cron_import_rates"
+                                            type="object"
+                                            class="oe_highlight mt-3"
+                                            string="Automatice"
+                                        />
+                                    </group>
+                                    <group>
+                                        <label
+                                            for="import_rates_item"
+                                            string="Import Rate item"
+                                            class="oe_inline"
+                                        />
+                                        <button
+                                            name="import_rates_item"
+                                            type="object"
+                                            class="oe_highlight"
+                                            string="Import"
+                                        />
+                                         <label
+                                            for="cron_import_rates_item"
+                                            string="Automatice process"
+                                            class="oe_inline  mt-3"
+                                        />
+                                    <button
+                                            name="cron_import_rates_item"
+                                            type="object"
+                                            class="oe_highlight mt-3"
+                                            string="Automatice"
+                                        />
+                                    </group>
+                                    <group>
+                                        <label
+                                            for="import_rates_client"
+                                            string="Import Rate Clients"
+                                            class="oe_inline"
+                                        />
+                                        <button
+                                            name="import_rates_client"
+                                            type="object"
+                                            class="oe_highlight "
+                                            string="Import"
+                                        />
+                                         <label
+                                            for="cron_import_rates_client"
+                                            string="Automatice process"
+                                            class="oe_inline  mt-3"
+                                        />
+                                    <button
+                                            name="cron_import_rates_client"
+                                            type="object"
+                                            class="oe_highlight mt-3"
+                                            string="Automatice"
+                                        />
+                                    </group>
+                                </group>
+                            </group>
+                        </page>
+                    </notebook>
+                </sheet>
+            </form>
+        </field>
+    </record>
+    <record id="bananas_backend_view_tree" model="ir.ui.view">
+        <field name="name">bananas.backend.view.tree</field>
+        <field name="model">bananas.backend</field>
+        <field name="arch" type="xml">
+            <tree>
+                <field name="url" />
+                <field name="api_key" />
+            </tree>
+        </field>
+    </record>
+
+    <record id="bananas_backend_action" model="ir.actions.act_window">
+        <field name="name">Bananas Connections</field>
+        <field name="res_model">bananas.backend</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+
+    <menuitem
+        id="bananas_backend_menu"
+        action="bananas_backend_action"
+        name="Bananas Connections"
+        parent="bananas_root_menu"
+    />
+
+</odoo>
