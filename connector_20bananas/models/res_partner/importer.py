@@ -1,7 +1,8 @@
+from odoo import _
 from odoo.odoo.exceptions import UserError
 
 from odoo.addons.component.core import Component
-from odoo.addons.connector.components.mapper import mapping, only_create
+from odoo.addons.connector.components.mapper import mapping
 
 
 class ResPartnerVendorBatchImporter(Component):
@@ -57,14 +58,16 @@ class ResPartnerMapper(Component):
                 [("bananas_id", "=", record["codcliente"])]
             )
             if not cliente:
-                raise UserError("Before asociate the rate to a cliente, import clients")
+                raise UserError(
+                    _("Before asociate the rate to a cliente, import clients")
+                )
             tarifa = self.env["bananas.binding.product.pricelist"].search(
                 [("bananas_id", "=", record["codtarifa"])]
             )
             if not tarifa:
-                raise UserError("Before asociate the rate to a cliente, import rates")
+                raise UserError(
+                    _("Before asociate the rate to a cliente, import rates")
+                )
             tarifa_odoo = tarifa.odoo_id
-            aux = cliente.odoo_id.sudo().write(
-                {"property_product_pricelist": tarifa_odoo}
-            )
+            cliente.odoo_id.sudo().write({"property_product_pricelist": tarifa_odoo})
             return {"property_product_pricelist", tarifa_odoo.id}

@@ -111,8 +111,6 @@ class BananasBatchImporter(AbstractComponent):
         for data in datas:
             try:
                 self._import_record(data)
-
-                self.env.cr.commit()
             except Exception:
                 self.env.cr.rollback()
 

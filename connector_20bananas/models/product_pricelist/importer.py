@@ -1,7 +1,5 @@
-import requests
-
 from odoo.addons.component.core import Component
-from odoo.addons.connector.components.mapper import mapping, only_create
+from odoo.addons.connector.components.mapper import mapping
 
 
 class ProductPricelistBatchImporter(Component):

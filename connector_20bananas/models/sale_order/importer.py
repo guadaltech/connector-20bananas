@@ -4,7 +4,7 @@ from odoo import _
 from odoo.exceptions import UserError
 
 from odoo.addons.component.core import Component
-from odoo.addons.connector.components.mapper import mapping, only_create
+from odoo.addons.connector.components.mapper import mapping
 
 
 class SaleOrderBatchImporter(Component):
@@ -67,7 +67,7 @@ class SaleOrderMapper(Component):
             )
             if not client:
                 raise UserError(
-                    "The client  hasn't been importer, pleas import before continue"
+                    _("The client  hasn't been importer, pleas import before continue")
                 )
             return {"partner_id": client.id}
 
@@ -108,7 +108,7 @@ class SaleOrderLineMapper(Component):
         )
         if not product:
             raise UserError(
-                "The product hasn't been importer, pleas import before continue"
+                _("The product hasn't been importer, pleas import before continue")
             )
         packages = self.env["product.packaging"].search(
             [("name", "=", record["unidad"]), ("product_id", "=", product.odoo_id.id)]
@@ -125,7 +125,7 @@ class SaleOrderLineMapper(Component):
         )
         if not product:
             raise UserError(
-                "The product hasn't been importer, pleas import before continue"
+                _("The product hasn't been importer, pleas import before continue")
             )
         packages = self.env["product.packaging"].search(
             [("name", "=", record["unidad"]), ("product_id", "=", product.odoo_id.id)]
@@ -150,7 +150,10 @@ class SaleOrderLineMapper(Component):
         )
         if not product:
             raise UserError(
-                "The product hasn't been importer, please before import the order, import all products."
+                _(
+                    "The product hasn't been importer, please before import the order,"
+                    " import all products."
+                )
             )
         return {"product_id": product.odoo_id.id}
 
@@ -163,7 +166,7 @@ class SaleOrderLineMapper(Component):
             )
             if not product:
                 raise UserError(
-                    "The product hasn't been importer, pleas import before continue"
+                    _("The product hasn't been importer, pleas import before continue")
                 )
             packages = self.env["product.packaging"].search(
                 [
@@ -174,8 +177,12 @@ class SaleOrderLineMapper(Component):
             if not packages:
                 raise UserError(
                     (
-                        "We can't create the order line because the unit for the line doesn't exit or"
-                        " threre aren't a packaging wyhs these name, pleas befere retray it, create the %s unit or the package"
+                        _(
+                            "We can't create the order line because "
+                            "the unit for the line doesn't exit or"
+                            " threre aren't a packaging wyhs these name, "
+                            "pleas befere retray it, create the %s unit or the package"
+                        )
                     )
                     % (record["unidad"])
                 )

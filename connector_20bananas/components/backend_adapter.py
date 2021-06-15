@@ -1,17 +1,20 @@
 import json
+from builtins import super
 from logging import getLogger
 
 import requests
 
-from odoo import api, fields, models
+from odoo import _
 from odoo.exceptions import UserError
 
 from odoo.addons.component.core import Component
 
 _logger = getLogger(__name__)
 
-##El backenAdapter abstrae del backen, que tiene la informacion necesaria para la conexion con la api,
-##dicha informacion para generar un metodo que conecta con los endpoint de la api.
+
+# El backenAdapter abstrae del backen, que tiene la
+# informacion necesaria para la conexion con la api,
+# dicha informacion para generar un metodo que conecta con los endpoint de la api.
 
 
 class BananasBackendAdapter:
@@ -20,19 +23,25 @@ class BananasBackendAdapter:
         self.api_key = api_key
         self.endpoint = endpoint
 
-    def connect(self, type, id, playload):
+    def connect(self, crudoperation, reference, playload):
         if not playload:
             headers = {"apikey": self.api_key}
         else:
             headers = {"apikey": self.api_key, "Content-type": "aplicatio/json"}
             playload = json.dumps([playload])
-        if id:
+        if reference:
             return requests.request(
-                type, self.location + self.endpoint + id, headers=headers, data=playload
+                crudoperation,
+                self.location + self.endpoint + reference,
+                headers=headers,
+                data=playload,
             )
         else:
             return requests.request(
-                type, self.location + self.endpoint, headers=headers, data=playload
+                crudoperation,
+                self.location + self.endpoint,
+                headers=headers,
+                data=playload,
             )
 
 
@@ -53,7 +62,7 @@ class BananasCRUDAdapter(Component):
         _logger.info(
             "Started Backend Service for {model}".format(model=environment.model._name)
         )
-        ##Se asigna el endpoint en función de el modelo que se este usando.
+        # Se asigna el endpoint en función de el modelo que se este usando.
         if environment.model._name == "bananas.binding.res.partner":
             endpoint = self.backend.endpoint_clients
         if environment.model._name == "bananas.binding.res.partner.pricelist":
@@ -77,7 +86,9 @@ class BananasCRUDAdapter(Component):
         )
 
     # Se crean los metodos crud necesarios
-    def search(self, filters=[None], attributes=dict()):
+    def search(self, filters=None, attributes=None):
+        if attributes is None:
+            attributes = dict()
         response = self.api.connect("GET", "", {})
 
         _logger.debug(
@@ -88,22 +99,30 @@ class BananasCRUDAdapter(Component):
         res = response.json()
         if res["response"] == "ERROR":
             raise UserError(
-                "We have get an error has a response in the request to the api, "
-                "these is the error ('%s'), please check it before retry it"
+                _(
+                    "We have get an error has a response in the request to the api, "
+                    "these is the error ('%s'), please check it before retry it"
+                )
                 % (res["description"])
             )
         data = res["records"]
         return data
 
-    def search_read(self, filters=[None], attributes=dict()):
+    def search_read(self, filters=None, attributes=None):
+        if attributes is None:
+            attributes = dict()
         return self.search(filters, attributes)
 
-    def read(self, id, attributes=dict()):
-        response = self.api.connect("GET", id, {})
+    def read(self, reference, attributes=None):
+        super(BananasCRUDAdapter, self).read(reference, attributes)
+        if attributes is None:
+            attributes = dict()
+        response = self.api.connect("GET", reference, {})
 
         return response
 
     def create(self, data):
+        super(BananasCRUDAdapter, self).create(data)
         response = self.api.connect("PUT", "", data)
 
         _logger.debug("Requested Create with data {data}".format(data=data))
@@ -111,16 +130,17 @@ class BananasCRUDAdapter(Component):
         return response
 
     def write(self, data):
+        super(BananasCRUDAdapter, self).write(data)
         response = self.api.connect("PUT", "", data)
 
         _logger.debug("Requested Update with data {data}".format(data=data))
 
         return response
 
-    def delete(self, id):
+    def delete(self, reference):
         payload = json.dumps({id})
         response = self.api.connect("DELETE", "", payload)
 
-        _logger.debug("Requested Delete for ID {id}".format(id=id))
+        _logger.debug("Requested Delete for ID {id}".format(id=reference))
 
         return response

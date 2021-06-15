@@ -3,7 +3,7 @@ import base64
 import requests
 
 from odoo.addons.component.core import Component
-from odoo.addons.connector.components.mapper import mapping, only_create
+from odoo.addons.connector.components.mapper import mapping
 
 
 class ProductProductBatchImporter(Component):
@@ -56,23 +56,23 @@ class ProductProductMapper(Component):
                 )
             return {"categ_id": cat_id.id}
 
-    ##Tengo de darle alguna vuelta más a esto de las unidades
-    # ##En principio solo voy a colocar las unidades de medida
+    # Tengo de darle alguna vuelta más a esto de las unidades
+    # En principio solo voy a colocar las unidades de medida
     @mapping
     def compute_uom_id(self, record):
-        ##Vamas a buscar y crear las unidades de medida relacionada con el producto,
+        # Vamas a buscar y crear las unidades de medida relacionada con el producto,
         # en caso de que no exista ya en el sistema
         uom_cat_id = self.env["uom.category"].search(
             [("measure_type", "=", "unit")], limit=1
         )
         uom_id = self.env["uom.uom"].search([("name", "=", record["unidad"])], limit=1)
         if not uom_id:
-            ##escojo la categoria de unidad en principio
+            # escojo la categoria de unidad en principio
             uom_id = self.env["uom.uom"].search(
                 [("category_id", "=", uom_cat_id.id), ("uom_type", "=", "reference")]
             )
             if uom_id:
-                ##Cambiamos el nombre en principio para que sea nuestra referencia
+                # Cambiamos el nombre en principio para que sea nuestra referencia
                 uom_id.write({"name": record["unidad"]})
         return {"uom_id": uom_id.id}
 

@@ -30,8 +30,7 @@ class SaleOrder(models.Model):
     _inherit = "sale.order"
 
     def button_marck_as_servide_in_bananas(self):
-        for record in self:
-            backend_id = self.env["bananas.backend"].search([])
-            with backend_id.work_on("bananas.binding.sale.order") as backend:
-                record_exporter = backend.component(usage="record.exporter")
-                record_exporter.run(self)
+        backend_id = self.env["bananas.backend"].search([])
+        with backend_id.work_on("bananas.binding.sale.order") as backend:
+            record_exporter = backend.component(usage="record.exporter")
+            record_exporter.run(self)

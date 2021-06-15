@@ -1,6 +1,7 @@
 from logging import getLogger
 
-from odoo import _, api, fields, models
+from odoo import _, fields, models
+from odoo.odoo.exceptions import UserError
 
 _logger = getLogger(__name__)
 
@@ -23,7 +24,7 @@ class BananasConnectorBackend(models.Model):
         required=True,
     )
 
-    ##Agrego las Terminaciones de la api para cada uno de los endpoint de la Api
+    # Agrego las Terminaciones de la api para cada uno de los endpoint de la Api
     endpoint_clients = fields.Char(string="Endpoint for Clients")
     endpoint_products = fields.Char(string="Endpoint for Products")
     endpoint_order_sale = fields.Char(string="Enpoint for order sale")
@@ -44,7 +45,7 @@ class BananasConnectorBackend(models.Model):
         for backend in self:
             if not backend.endpoint_clients:
                 raise UserError(
-                    "Before import the clients please, introduce the endpoint"
+                    _("Before import the clients please, introduce the endpoint")
                 )
             self.env["bananas.binding.res.partner"].import_batch(backend)
         return True
@@ -54,7 +55,7 @@ class BananasConnectorBackend(models.Model):
         for backend in self:
             if not backend.endpoint_products:
                 raise UserError(
-                    "Before import the product please, introduce the endpoint"
+                    _("Before import the product please, introduce the endpoint")
                 )
             self.env["bananas.binding.product.product"].import_batch(backend)
 
@@ -63,7 +64,7 @@ class BananasConnectorBackend(models.Model):
         for backend in self:
             if not backend.endpoint_order_sale:
                 raise UserError(
-                    "Before import the order sale please, introduce the endpoint"
+                    _("Before import the order sale please, introduce the endpoint")
                 )
             self.env["bananas.binding.sale.order"].import_batch(backend)
 
@@ -72,29 +73,38 @@ class BananasConnectorBackend(models.Model):
         for backend in self:
             if not backend.endpoint_product_pricelist:
                 raise UserError(
-                    "Before import the rate for price please, introduce the endpoint"
+                    _("Before import the rate for price please, introduce the endpoint")
                 )
             self.env["bananas.binding.product.pricelist"].import_batch(backend)
 
-    # Este es el metodo usado para agregarle a las tarifas los precios de los productos(pricelist.item)
+    # Este es el metodo usado para agregarle a las tarifas los precios
+    # de los productos(pricelist.item)
     def import_rates_item(self):
         for backend in self:
             if not backend.endpoint_product_pricelist_item:
                 raise UserError(
-                    "Before import the rate for price item please, introduce the endpoint"
+                    _(
+                        "Before import the rate for price item please, "
+                        "introduce the endpoint"
+                    )
                 )
             self.env["bananas.binding.product.pricelist.item"].import_batch(backend)
 
-    # Este es el metodo usado para afregarle a los clientes las tarifas(aun no esta funcioando correctamete)
+    # Este es el metodo usado para afregarle a los clientes las
+    # tarifas(aun no esta funcioando correctamete)
     def import_rates_client(self):
         for backend in self:
             if not backend.endpoint_product_pricelist_client:
                 raise UserError(
-                    "Before asociate the clients with his rates, introduce the endpoint"
+                    _(
+                        "Before asociate the clients with his rates, "
+                        "introduce the endpoint"
+                    )
                 )
             self.env["bananas.binding.res.partner.pricelist"].import_batch(backend)
 
-    # Este es un metodo para llamar al wizar y crear un cron para automatizar las importaciones de CLientes
+    # Este es un metodo para llamar al wizar y crear un cron para
+    # automatizar las importaciones de CLientes
     def cron_import_clients(self):
         return {
             "name": _("Create Cron Client"),
@@ -108,7 +118,8 @@ class BananasConnectorBackend(models.Model):
             },
         }
 
-    # Este es un metodo para llamar al wizar y crear un cron para automatizar las importaciones de Product
+    # Este es un metodo para llamar al wizar y crear un cron para
+    # automatizar las importaciones de Product
     def cron_import_products(self):
         return {
             "name": _("Create Cron Product"),
@@ -122,7 +133,8 @@ class BananasConnectorBackend(models.Model):
             },
         }
 
-    # Este es un metodo para llamar al wizar y crear un cron para automatizar las importaciones de Orders
+    # Este es un metodo para llamar al wizar y crear un cron para
+    # automatizar las importaciones de Orders
     def cron_import_orders(self):
         return {
             "name": _("Create Cron Orders"),
@@ -136,7 +148,8 @@ class BananasConnectorBackend(models.Model):
             },
         }
 
-    # Este es un metodo para llamar al wizar y crear un cron para automatizar las importaciones de Rates
+    # Este es un metodo para llamar al wizar y crear un cron para
+    # automatizar las importaciones de Rates
     def cron_import_rates(self):
         return {
             "name": _("Create Cron Rates"),
@@ -150,7 +163,8 @@ class BananasConnectorBackend(models.Model):
             },
         }
 
-    # Este es un metodo para llamar al wizar y crear un cron para automatizar las importaciones de Rate Items
+    # Este es un metodo para llamar al wizar y crear un cron para
+    # automatizar las importaciones de Rate Items
     def cron_import_rates_item(self):
         return {
             "name": _("Create Cron Rate Items"),
@@ -164,7 +178,8 @@ class BananasConnectorBackend(models.Model):
             },
         }
 
-    # Este es un metodo para llamar al wizar y crear un cron para automatizar las importaciones Rates for CLientes
+    # Este es un metodo para llamar al wizar y crear un cron para
+    # automatizar las importaciones Rates for CLientes
     def cron_import_rates_client(self):
         return {
             "name": _("Create Cron Rates forClient"),
@@ -178,11 +193,13 @@ class BananasConnectorBackend(models.Model):
             },
         }
 
-    # Este ina a ser usado para marcar un pedido como servido pero se ha colocado en otro sitio por el momento
+    # Este ina a ser usado para marcar un pedido como servido
+    # pero se ha colocado en otro sitio por el momento
     # def marck_sale_as_served(self):
     #     for backend in self:
     #         if not backend.endpoint_order_sale:
     #             raise UserError(
-    #                 "Before marck sale as served, please introduce the enpoint for sale"
+    #                 "Before marck sale as served, please introduce
+    #                 the enpoint for sale"
     #             )
     #         self.env["bananas.binding.sale.order"].marck_as_served(backend)

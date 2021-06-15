@@ -74,6 +74,6 @@ class BananasBindingResPartner(models.Model):
             return importer.run(filters=filters)
 
 
-class BananasBindingResPartner(models.Model):
+class BananasBindingResPartnerPricelist(models.Model):
     _name = "bananas.binding.res.partner.pricelist"
     _inherit = "bananas.binding.res.partner"

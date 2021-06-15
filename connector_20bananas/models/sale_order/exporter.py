@@ -15,10 +15,9 @@
 #
 #    You should have received a copy of the GNU General Public License
 #    along with this program.  If not, see http://www.gnu.org/licenses/.
-from odoo import _
 
 from odoo.addons.component.core import Component
-from odoo.addons.connector.components.mapper import mapping, only_create
+from odoo.addons.connector.components.mapper import mapping
 
 
 class SaleOrderExporter(Component):
@@ -33,7 +32,7 @@ class SaleOrderExporterMapper(Component):
     _name = "bananas.sale.order.exporter.mapper"
     _inherit = "bananas.export.mapper"
 
-    ##Aqui marcare como realizado el valor de servido
+    # Aqui marcare como realizado el valor de servido
 
     @mapping
     def compute_idpedido(self, record):
