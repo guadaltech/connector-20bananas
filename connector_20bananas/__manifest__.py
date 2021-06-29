@@ -5,7 +5,14 @@
     "website": "https://github.com/guadaltech/connector-20bananas",
     "license": "AGPL-3",
     "category": "Generic Modules",
-    "depends": ["connector", "sale", "product", "contacts", "l10n_es"],
+    "depends": [
+        "connector",
+        "sale",
+        "sale_management",
+        "product",
+        "contacts",
+        "l10n_es",
+    ],
     "data": [
         "data/cast_days_data.xml",
         "security/ir.model.access.csv",
