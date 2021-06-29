@@ -1,7 +1,9 @@
 {
     "name": "Connector 20 Bananas",
-    "version": "13.0.1.0.0",
+    "version": "13.0.1.0.1",
     "author": "Guadaltech Soluciones Tecnológicas",
+    "website": "https://github.com/guadaltech/connector-20bananas",
+    "license": "AGPL-3",
     "category": "Generic Modules",
     "depends": ["connector", "sale", "product", "contacts", "l10n_es"],
     "data": [
@@ -12,6 +14,7 @@
         "views/res_partner_views.xml",
         "views/delivery_days_views.xml",
         "views/sale_order_views.xml",
+        "views/connections_bananas_cron_views.xml",
         "wizard/create_cron_for_backend_conector_views.xml",
     ],
     "application": True,

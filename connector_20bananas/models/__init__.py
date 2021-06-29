@@ -8,3 +8,4 @@ from . import sale_order
 from . import product_pricelist
 from . import product_whitelist
 from . import product_blacklist
+from . import conections_cron

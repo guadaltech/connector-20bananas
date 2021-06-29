@@ -6,3 +6,4 @@ bananas_binding_sale_order,bananas.binding.sale.order_access,model_bananas_bindi
 bananas_binding_product_pricelist,bananas.binding.product.pricelist_access,model_bananas_binding_product_pricelist,base.group_erp_manager,1,1,1,1
 bananas_binding_product_pricelist_item,bananas.binding.product.pricelist.item_access,model_bananas_binding_product_pricelist_item,base.group_erp_manager,1,1,1,1
 delivery_days,delivery.days_access,model_delivery_days,base.group_erp_manager,1,1,1,1
+connection_bananas_cron,connection.bananas.cron_access,model_connections_bananas_cron,base.group_erp_manager,1,1,1,1

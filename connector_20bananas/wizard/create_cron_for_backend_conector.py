@@ -47,10 +47,10 @@ class CronBananasConector(models.TransientModel):
     def create_cron(self):
         code = (
             "allrecord = env[model._name].search([])"
-            "\nfor rec in allrecord:\n        rec.import_orders()"
+            "\nfor rec in allrecord:\n        rec." + self.type_import
         )
         model = self.env["ir.model"].search([("model", "=", self.model_id._name)])
-        self.env["ir.cron"].create(
+        self.env["connections.bananas.cron"].create(
             {
                 "name": self.name,
                 "interval_number": self.interval_num,
@@ -61,6 +61,7 @@ class CronBananasConector(models.TransientModel):
                 "doall": self.doall,
                 "code": code,
                 "model_id": model.id,
+                "backend_id": self.model_id.id,
             }
         )
         # a lo mejor lo llevo a la pagina de listas de crones asociados con el modelo,

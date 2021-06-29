@@ -39,6 +39,9 @@ class BananasConnectorBackend(models.Model):
         string="Endpoint for asociate rate to client"
     )
 
+    # Contador de Crones actvos
+    cron_count = fields.Integer(string="Crons", compute="_compute_cron_count")
+
     # Este es el metodo usado para importar los clientes
     def import_customers(self):
         # TODO Implement call to import parnters
@@ -191,6 +194,21 @@ class BananasConnectorBackend(models.Model):
                 "default_model_id": self.id,
                 "default_type_import": "import_rates_client()",
             },
+        }
+
+    def _compute_cron_count(self):
+        for rec in self:
+            rec.cron_count = self.env["connections.bananas.cron"].search_count(
+                [("backend_id", "=", rec.id), ("active", "=", "True")]
+            )
+
+    def button_get_crons(self):
+        return {
+            "type": "ir.actions.act_window",
+            "res_model": "connections.bananas.cron",
+            "view_mode": "tree,form",
+            "domain": [("backend_id", "=", self.id)],
+            "name": "Crons",
         }
 
     # Este ina a ser usado para marcar un pedido como servido
