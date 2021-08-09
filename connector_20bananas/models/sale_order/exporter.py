@@ -31,6 +31,7 @@ class SaleOrderExporterMapper(Component):
 
     _name = "bananas.sale.order.exporter.mapper"
     _inherit = "bananas.export.mapper"
+    _applay_on = "bananas.binding.sale.order"
 
     # Aqui marcare como realizado el valor de servido
 

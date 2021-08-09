@@ -23,7 +23,7 @@ class BananasBackendAdapter:
         self.api_key = api_key
         self.endpoint = endpoint
 
-    def connect(self, crudoperation, reference, playload):
+    def connect(self, crudoperation, reference, playload=None):
         if not playload:
             headers = {"apikey": self.api_key}
         else:
@@ -81,6 +81,10 @@ class BananasCRUDAdapter(Component):
         if environment.model._name == "bananas.binding.product.pricelist.item":
             endpoint = self.backend.endpoint_product_pricelist_item
 
+        # endpoint para los exportadores
+        if environment.model._name == "res.partner":
+            endpoint = self.backend.endpoint_clients
+
         self.api = BananasBackendAdapter(
             self.backend.url, self.backend.api_key, endpoint
         )
@@ -114,24 +118,40 @@ class BananasCRUDAdapter(Component):
         return self.search(filters, attributes)
 
     def read(self, reference, attributes=None):
-        super(BananasCRUDAdapter, self).read(reference, attributes)
         if attributes is None:
             attributes = dict()
-        response = self.api.connect("GET", reference, {})
+        response = self.api.connect("GET", "", {})
 
         return response
 
     def create(self, data):
-        super(BananasCRUDAdapter, self).create(data)
-        response = self.api.connect("PUT", "", data)
-
-        _logger.debug("Requested Create with data {data}".format(data=data))
-
-        return response
+        response = self.api.connect("POST", "", data)
+        res = response.json()
+        if res:
+            if res["response"] == "ERROR":
+                raise UserError(
+                    _(
+                        "We have get an error has a response in the "
+                        "request to the api, "
+                        "these is the error ('%s'), "
+                        "please check it before retry it"
+                    )
+                    % (response.json()["description"])
+                )
+            else:
+                _logger.debug("Requested Create with data {data}".format(data=data))
+                res = response.json()
+                data = res["insertedRecordKeys"]
+                return data
+        else:
+            return ""
 
     def write(self, data):
-        super(BananasCRUDAdapter, self).write(data)
-        response = self.api.connect("PUT", "", data)
+        # podria tratar el caso especial de las tarifas a los clientes
+        if self.model._name == "bananas.binding.res.partner.pricelist":
+            response = self.api.connect("POST", "", data)
+        else:
+            response = self.api.connect("PUT", "", data)
 
         _logger.debug("Requested Update with data {data}".format(data=data))
 

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+    <record id="bananas_product_template_binding_view_form" model="ir.ui.view">
+        <field name="name">bananas.product_template.binding.view.form</field>
+        <field name="model">bananas.binding.product.product</field>
+        <field name="arch" type="xml">
+            <form>
+                <sheet>
+                    <group string="Basic Information">
+                        <field name="name" readonly="1" />
+                        <field name="bananas_id" readonly="1" />
+                        <field name="odoo_id" readonly="1" />
+                        <field name="backend_id" readonly="1" />
+                        <field name="sync_date" readonly="1" />
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <record id="bananas_product_template_binding_view_tree" model="ir.ui.view">
+        <field name="name">bananas.product.template.binding.view.tree</field>
+        <field name="model">bananas.binding.product.product</field>
+        <field name="arch" type="xml">
+            <tree>
+                <field name="name" />
+                <field name="bananas_id" />
+                <field name="backend_id" />
+                <field name="sync_date" />
+            </tree>
+        </field>
+    </record>
+</odoo>

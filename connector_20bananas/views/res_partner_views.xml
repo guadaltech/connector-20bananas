@@ -3,11 +3,67 @@
     <record id="res_partner_cast_days_form" model="ir.ui.view">
         <field name="name">res.partner.cast.day.form</field>
         <field name="model">res.partner</field>
-        <field name="inherit_id" ref="product.view_partner_property_form" />
+        <field name="inherit_id" ref="base.view_partner_form" />
         <field name="arch" type="xml">
             <group name="sale" position="inside">
                 <field name="delivery_days_ids" widget="many2many_tags" />
             </group>
+            <field name="company_type" position="after">
+
+            </field>
+            <xpath expr="//page[@name='internal_notes']" position="after">
+                <field name="active_backend_adapter" invisible="1" />
+                <page
+                    name="bananas_conector"
+                    string="Bananas"
+                    attrs="{'invisible': [('active_backend_adapter', '=', False)]}"
+                >
+                    <div name="auto_export" groups="connector.group_connector_manager">
+                        <label for="auto_export_selection">
+                            Auto export the client to 20 Bananas?
+                        </label>
+                        <field
+                            name="auto_export_selection"
+                            options="{'horizontal': true}"
+                            widget="radio"
+                        />
+                    </div>
+
+                    <group string="Customer in Bananas">
+                        <field name="bananas_customer_bind_ids" nolabel="1" />
+                    </group>
+                    <group name="buttons" col="1">
+                        <button
+                            name="button_to_export_bananas"
+                            string="Export Client"
+                            type="object"
+                            class="btn-primary"
+                        />
+                        <button
+                            name="button_to_export_pricelist_bananas"
+                            string="Export Client pricelist"
+                            type="object"
+                            class="btn-primary"
+                        />
+                    </group>
+
+                </page>
+            </xpath>
         </field>
+    </record>
+    <record id="res_partner_export_bananas" model="ir.actions.server">
+        <field name="name">Export to 20Bananas</field>
+        <field name="model_id" ref="base.model_res_partner" />
+        <field name="binding_model_id" ref="base.model_res_partner" />
+        <field name="state">code</field>
+        <field name="code">records.action_export()</field>
+    </record>
+
+    <record id="res_partner_export_bananas_client_rates" model="ir.actions.server">
+        <field name="name">Export to 20Bananas Client rates</field>
+        <field name="model_id" ref="base.model_res_partner" />
+        <field name="binding_model_id" ref="base.model_res_partner" />
+        <field name="state">code</field>
+        <field name="code">records.action_export_rate_client()</field>
     </record>
 </odoo>

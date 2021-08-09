@@ -23,8 +23,8 @@ class BananasExporter(AbstractComponent):
         :return:
         """
         self.external_id = self.backend_adapter.create(map_record)
-        if self.external_id and self.external_id.get("No", False):
-            self.binding.write({"external_id": self.external_id.get("No")})
+        if self.external_id:
+            self.binding.write({"bananas_id": self.external_id[0]})
 
         return self.external_id
 

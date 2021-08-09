@@ -1,6 +1,7 @@
 id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
 bananas_connector_backend_access,bananas.connector.backend_access,model_bananas_backend,connector.group_connector_manager,1,1,1,1
 bananas_binding_res_partner,bananas.binding.res.partner_access,model_bananas_binding_res_partner,connector.group_connector_manager,1,1,1,1
+bananas_binding_res_partner_pricelist,bananas.binding.res.partner.pricelist_access,model_bananas_binding_res_partner_pricelist,connector.group_connector_manager,1,1,1,1
 bananas_binding_product_product,bananas.binding.product.product_access,model_bananas_binding_product_product,connector.group_connector_manager,1,1,1,1
 bananas_binding_sale_order,bananas.binding.sale.order_access,model_bananas_binding_sale_order,connector.group_connector_manager,1,1,1,1
 bananas_binding_product_pricelist,bananas.binding.product.pricelist_access,model_bananas_binding_product_pricelist,connector.group_connector_manager,1,1,1,1

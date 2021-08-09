@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+    <data>
+        <record id="res_parnet_auto_export_bananas_cron" model="ir.cron">
+            <field
+                name="name"
+            >Export the clients that are select to bananas application</field>
+            <field name="model_id" ref="base.model_res_partner" />
+            <field name="state">code</field>
+            <field name="code">model.cron_export_clients_bananas()</field>
+            <field name="interval_number">1</field>
+            <field name="interval_type">days</field>
+            <field name="numbercall">-1</field>
+            <field name="active" eval="True" />
+            <field name="doall" eval="False" />
+        </record>
+
+        <record id="res_parnet_rate_auto_export_bananas_cron" model="ir.cron">
+            <field
+                name="name"
+            >Export the clients rate that are select to bananas application</field>
+            <field name="model_id" ref="base.model_res_partner" />
+            <field name="state">code</field>
+            <field name="code">model.cron_export_clients_rate_bananas()</field>
+            <field name="interval_number">1</field>
+            <field name="interval_type">days</field>
+            <field name="numbercall">-1</field>
+            <field name="active" eval="True" />
+            <field name="doall" eval="False" />
+        </record>
+
+        <record id="product_auto_export_bananas_cron" model="ir.cron">
+            <field
+                name="name"
+            >Export the product that are select to bananas application</field>
+            <field name="model_id" ref="product.model_product_template" />
+            <field name="state">code</field>
+            <field name="code">model.cron_export_product_bananas()</field>
+            <field name="interval_number">1</field>
+            <field name="interval_type">days</field>
+            <field name="numbercall">-1</field>
+            <field name="active" eval="True" />
+            <field name="doall" eval="False" />
+        </record>
+
+        <record id="product_rate_auto_export_bananas_cron" model="ir.cron">
+            <field
+                name="name"
+            >Export the product rate that are select to bananas application</field>
+            <field name="model_id" ref="product.model_product_pricelist" />
+            <field name="state">code</field>
+            <field name="code">model.cron_export_product_rate_bananas()</field>
+            <field name="interval_number">1</field>
+            <field name="interval_type">days</field>
+            <field name="numbercall">-1</field>
+            <field name="active" eval="True" />
+            <field name="doall" eval="False" />
+        </record>
+
+
+    </data>
+</odoo>
