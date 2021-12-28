@@ -97,7 +97,7 @@ class ResPartner(models.Model):
     def cron_export_clients_bananas(self):
         models = self.env["res.partner"].search([("auto_export", "=", True)])
         for model in models:
-            model.with_delay().action_export()
+            model.action_export()
 
     def cron_export_clients_rate_bananas(self):
         models = self.env["res.partner"].search([("auto_export", "=", True)])
@@ -107,7 +107,7 @@ class ResPartner(models.Model):
     # metodo para la acción de servidor para exportar los clientes seleccionadas
     def action_export(self):
         for rec in self:
-            rec.with_delay().button_to_export_bananas()
+            rec.button_to_export_bananas()
 
     def action_export_rate_client(self):
         for rec in self:

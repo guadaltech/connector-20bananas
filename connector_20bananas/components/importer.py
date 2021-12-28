@@ -1,7 +1,6 @@
 from logging import getLogger
 
 from odoo.addons.component.core import AbstractComponent
-from odoo.addons.queue_job.job import job
 
 _logger = getLogger(__name__)
 
@@ -90,7 +89,6 @@ class BananasBatchImporter(AbstractComponent):
     _inherit = "bananas.importer"
     _usage = "batch.importer"
 
-    @job(default_channel="root.bananas.import")
     def run(self, filters=None):
         """
         Runs the Batch Importer. This method will connect to the Navision API

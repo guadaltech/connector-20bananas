@@ -36,7 +36,7 @@ class BananasBindingProductProduct(models.Model):
             filters = {}
         with backend.work_on(self._name) as work:
             importer = work.component(usage="batch.importer")
-            return importer.with_delay().run(filters=filters)
+            return importer.run(filters=filters)
 
 
 class ProductProduct(models.Model):
@@ -108,7 +108,7 @@ class ProductProduct(models.Model):
     # metodo para la acción de servidor para exportar los productos seleccionadas
     def action_export(self):
         for rec in self:
-            rec.with_delay().button_to_export_bananas()
+            rec.button_to_export_bananas()
 
         # accion del cron
 
