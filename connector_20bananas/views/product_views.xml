@@ -38,6 +38,44 @@
         </field>
     </record>
 
+    <record id="product_product_form_export_bananas" model="ir.ui.view">
+        <field name="name">product.product.form.export.bananas</field>
+        <field name="model">product.product</field>
+        <field name="inherit_id" ref="product.product_normal_form_view" />
+        <field name="arch" type="xml">
+            <xpath expr="//notebook" position="inside">
+                <field name="active_backend_adapter" invisible="1" />
+                <page
+                    name="bananas"
+                    string="Bananas"
+                    attrs="{'invisible': [('active_backend_adapter', '=', False)]}"
+                >
+                    <div name="auto_export" groups="connector.group_connector_manager">
+                        <label for="auto_export_selection">
+                            Auto export the client to 20 Bananas?
+                        </label>
+                        <field
+                            name="auto_export_selection"
+                            options="{'horizontal': true}"
+                            widget="radio"
+                        />
+                        <group string="Products in Bananas">
+                            <field name="bananas_product_bind_ids" nolabel="1" />
+                        </group>
+                        <group name="buttons">
+                            <button
+                                name="button_to_export_bananas"
+                                string="Export Product"
+                                type="object"
+                                class="btn-primary"
+                            />
+                        </group>
+                    </div>
+                </page>
+            </xpath>
+        </field>
+    </record>
+
     <record id="product_pricelist_form_export_bananas" model="ir.ui.view">
         <field name="name">product.pricelist.form.export.bananas</field>
         <field name="model">product.pricelist</field>
