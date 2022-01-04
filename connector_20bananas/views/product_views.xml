@@ -121,6 +121,12 @@
                             type="object"
                             class="btn-primary"
                         />
+                        <button
+                            name="button_to_export_pricelist_bananas"
+                            string="Export client Item"
+                            type="object"
+                            class="btn-primary"
+                        />
                     </group>
                 </page>
             </xpath>

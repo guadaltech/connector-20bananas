@@ -104,6 +104,12 @@ class ProductPricelist(models.Model):
         for item in self.item_ids:
             item.button_to_export_bananas()
 
+    def button_to_export_pricelist_bananas(self):
+        backend_id = self.env["bananas.backend"].search([])
+        with backend_id.work_on("bananas.binding.res.partner.pricelist") as backend:
+            record_exporter = backend.component(usage="record.exporter")
+            record_exporter.run(self)
+
     # metodo para la acción de servidor para exportar las tarifas seleccionadas
     def action_export(self):
         for rec in self:
