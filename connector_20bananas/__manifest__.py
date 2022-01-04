@@ -1,6 +1,6 @@
 {
     "name": "Connector 20 Bananas",
-    "version": "13.0.1.0.1",
+    "version": "15.0.1.0.1",
     "author": "Guadaltech Soluciones Tecnológicas",
     "website": "https://github.com/guadaltech/connector-20bananas",
     "license": "AGPL-3",
