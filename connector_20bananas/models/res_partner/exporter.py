@@ -99,7 +99,7 @@ class ResPartnerRatesExporterMapper(Component):
     @mapping
     def compute_codcliente(self, record):
         client_binding = self.env["bananas.binding.res.partner"].search(
-            [("odoo_id", "=", record["id"])]
+            [("email", "=", record["email"])]
         )
         if client_binding and client_binding.bananas_id:
             return {"codcliente": client_binding.bananas_id}

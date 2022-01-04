@@ -62,9 +62,7 @@ class ProductProductMapper(Component):
     def compute_uom_id(self, record):
         # Vamas a buscar y crear las unidades de medida relacionada con el producto,
         # en caso de que no exista ya en el sistema
-        uom_cat_id = self.env["uom.category"].search(
-            [("measure_type", "=", "unit")], limit=1
-        )
+        uom_cat_id = self.env["uom.category"].search([("name", "=", "Unit")], limit=1)
         uom_id = self.env["uom.uom"].search([("name", "=", record["unidad"])], limit=1)
         if not uom_id:
             # escojo la categoria de unidad en principio
