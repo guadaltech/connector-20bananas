@@ -1,3 +1,6 @@
+from odoo import _
+from odoo.exceptions import UserError
+
 from odoo.addons.component.core import Component
 from odoo.addons.connector.components.mapper import mapping
 
@@ -22,7 +25,15 @@ class ProductProductExporterMapper(Component):
             return {"referencia": record["bananas_id"]}
         else:
             # aqui va el calculo con la secuencia
-            referencia = self.env["ir.sequence"].next_by_code("bananas.product") or ""
+            if record["default_code"]:
+                referencia = record["default_code"]
+            else:
+                raise UserError(
+                    _(
+                        "Complete the field 'Internal Reference', "
+                        "before send the product information to 20 Bananas"
+                    )
+                )
             # sobreescribimos el valor para que no vaya generando eternamete los codigo
             return {"referencia": referencia}
 

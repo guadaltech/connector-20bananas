@@ -53,9 +53,15 @@ class ProductTemplate(models.Model):
 
     bananas_product_bind_ids = fields.One2many(
         comodel_name="bananas.binding.product.product",
-        inverse_name="odoo_id",
+        compute="_compute_bananas_product_bind_ids",
         string="Bananas Product Bindings",
     )
+
+    def _compute_bananas_product_bind_ids(self):
+        for rec in self:
+            rec.bananas_product_bind_ids = rec.product_variant_ids.mapped(
+                "bananas_product_bind_ids"
+            )
 
     def _get_active_backend_adapter(self):
         return self.env["bananas.backend"].search_count([]) > 0
@@ -100,10 +106,8 @@ class ProductTemplate(models.Model):
 
     # creamos un metodo para exportar los productos para las pruebas
     def button_to_export_bananas(self):
-        backend_id = self.env["bananas.backend"].search([])
-        with backend_id.work_on("bananas.binding.product.product") as backend:
-            record_exporter = backend.component(usage="record.exporter")
-            record_exporter.run(self.product_variant_id)
+        for rec in self.product_variant_ids:
+            rec.button_to_export_bananas()
 
     # metodo para la acción de servidor para exportar los productos seleccionadas
     def action_export(self):
