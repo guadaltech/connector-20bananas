@@ -7,7 +7,7 @@
     "version": "15.0.0.1.0",
     "license": "AGPL-3",
     "author": "ACSONE SA/NV, Odoo Community Association (OCA), Numigi",
-    "website": "https://github.com/OCA/product-attribute",
+    "website": "https://github.com/OCA/queue",
     "depends": ["product"],
     "data": [
         "security/product_template_rule.xml",
