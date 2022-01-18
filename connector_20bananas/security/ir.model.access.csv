@@ -8,3 +8,4 @@ bananas_binding_product_pricelist,bananas.binding.product.pricelist_access,model
 bananas_binding_product_pricelist_item,bananas.binding.product.pricelist.item_access,model_bananas_binding_product_pricelist_item,connector.group_connector_manager,1,1,1,1
 delivery_days,delivery.days_access,model_delivery_days,connector.group_connector_manager,1,1,1,1
 connection_bananas_cron,connection.bananas.cron_access,model_connections_bananas_cron,connector.group_connector_manager,1,1,1,1
+bananas_wizard_cron, wizard.cron.bananas.conector_access,model_wizard_cron_bananas_conector,connector.group_connector_manager,1,1,1,1

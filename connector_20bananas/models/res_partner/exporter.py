@@ -62,11 +62,11 @@ class ResPartnerExporterMapper(Component):
     @mapping
     def compute_codcomercial(self, record):
         if record["user_id"]:
-            user_id = self.env["bananas.binding.res.partner"].search(
-                [("id", "=", record["user_id"].id)]
-            )
-            if user_id.bananas_id:
-                return {"codcomercial": user_id.bananas_id}
+            user_id = record["user_id"].partner_id
+            if user_id.is_comercial:
+                return {"codcomercial": user_id.cod_comercial_20_bananas}
+            else:
+                raise ValidationError(_("Select a comercial of 20 bananas before"))
 
 
 class ResPartnerRatesExporter(Component):

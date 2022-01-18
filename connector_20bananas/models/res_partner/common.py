@@ -44,6 +44,9 @@ class DeliverytDays(models.Model):
 class ResPartner(models.Model):
     _inherit = "res.partner"
 
+    is_comercial = fields.Boolean("¿Es un Comercial en 20 Bananas?")
+    cod_comercial_20_bananas = fields.Char("¿Código comercial en 20 bananas?")
+
     delivery_days_ids = fields.Many2many(
         comodel_name="delivery.days", string="Delivery Days", inverse_name="partner_ids"
     )
