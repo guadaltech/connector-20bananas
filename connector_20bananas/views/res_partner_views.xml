@@ -15,9 +15,21 @@
                 <field name="active_backend_adapter" invisible="1" />
                 <page
                     name="bananas_conector"
-                    string="Bananas"
+                    string="20 Bananas"
                     attrs="{'invisible': [('active_backend_adapter', '=', False)]}"
                 >
+                    <group
+                        col="2"
+                        groups="connector.group_connector_manager"
+                        sting="Comercial Setting"
+                    >
+                        <field name="is_comercial" />
+                        <field
+                            name="cod_comercial_20_bananas"
+                            attrs="{'invisible': [('is_comercial', '=', False)]}"
+                            class="w-25"
+                        />
+                    </group>
                     <div name="auto_export" groups="connector.group_connector_manager">
                         <label for="auto_export_selection">
                             Auto export the client to 20 Bananas?
