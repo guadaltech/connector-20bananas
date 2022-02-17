@@ -1,0 +1,3941 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* connector_20bananas
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 15.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-02-17 10:29+0000\n"
+"PO-Revision-Date: 2022-02-17 12:54+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
+"Language: es\n"
+"X-Generator: Poedit 3.0\n"
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_product_product__product_variant_count
+msgid "# Product Variants"
+msgstr "# Variantes de producto"
+
+#. module: connector_20bananas
+#: model_terms:ir.ui.view,arch_db:connector_20bananas.res_partner_cast_days_form
+msgid "20 Bananas"
+msgstr "20Bananas"
+
+#. module: connector_20bananas
+#: model:ir.model.fields,help:connector_20bananas.field_bananas_binding_product_product__description_sale
+msgid ""
+"A description of the Product that you want to communicate to your customers. This description will "
+"be copied to every Sales Order, Delivery Order and Customer Invoice/Credit Note"
+msgstr ""
+"Una descripción del producto que quiera comunicar a sus clientes. Esta descripción se copiará a "
+"cada pedido de venta, albarán de salida y factura de cliente"
+
+#. module: connector_20bananas
+#: model:ir.model.fields,help:connector_20bananas.field_bananas_binding_product_product__detailed_type
+msgid ""
+"A storable product is a product for which you manage stock. The Inventory app has to be installed.\n"
+"A consumable product is a product for which stock is not managed.\n"
+"A service is a non-material product you provide."
+msgstr ""
+"Un producto almacenable es un producto para el cual usted maneja existencias. La aplicación de "
+"inventario tiene que ser instalada.\n"
+"Un producto consumible es un producto para el que no se controlan las existencias.\n"
+"Un servicio es un producto no-material que usted proporciona."
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_backend__api_key
+msgid "API KEY for the api of Bananas"
+msgstr "API KEY para la API de 20Bananas"
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_sale_order__access_warning
+msgid "Access warning"
+msgstr "Advertencia de acceso"
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner__property_account_payable_id
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner_pricelist__property_account_payable_id
+msgid "Account Payable"
+msgstr "Cuenta de pago"
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner__property_account_receivable_id
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner_pricelist__property_account_receivable_id
+msgid "Account Receivable"
+msgstr "Cuenta de cobro"
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_product_product__account_tag_ids
+msgid "Account Tags"
+msgstr "Etiquetas de cuentas"
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_connections_bananas_cron__help
+msgid "Action Description"
+msgstr "Descripción de la acción"
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_connections_bananas_cron__name
+msgid "Action Name"
+msgstr "Nombre"
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_product_product__message_needaction
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner__message_needaction
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner_pricelist__message_needaction
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_sale_order__message_needaction
+msgid "Action Needed"
+msgstr "Necesita Acción"
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_connections_bananas_cron__state
+msgid "Action To Do"
+msgstr "Acción a Realizar"
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_connections_bananas_cron__type
+msgid "Action Type"
+msgstr "Tipo de Acción"
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_product_pricelist__active
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_product_pricelist_item__active
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_product_product__active
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner__active
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner_pricelist__active
+#: model:ir.model.fields,field_description:connector_20bananas.field_connections_bananas_cron__active
+msgid "Active"
+msgstr "Activo"
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_product_pricelist__active_backend_adapter
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_product_product__active_backend_adapter
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner__active_backend_adapter
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner_pricelist__active_backend_adapter
+#: model:ir.model.fields,field_description:connector_20bananas.field_product_pricelist__active_backend_adapter
+#: model:ir.model.fields,field_description:connector_20bananas.field_product_product__active_backend_adapter
+#: model:ir.model.fields,field_description:connector_20bananas.field_product_template__active_backend_adapter
+#: model:ir.model.fields,field_description:connector_20bananas.field_res_partner__active_backend_adapter
+#: model:ir.model.fields,field_description:connector_20bananas.field_res_users__active_backend_adapter
+msgid "Active Backend Adapter"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner__active_lang_count
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner_pricelist__active_lang_count
+msgid "Active Lang Count"
+msgstr "Recuento de idiomas activos"
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_product_product__activity_ids
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner__activity_ids
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner_pricelist__activity_ids
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_sale_order__activity_ids
+msgid "Activities"
+msgstr "Actividades"
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_connections_bananas_cron__activity_type_id
+msgid "Activity"
+msgstr "Actividad"
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_product_product__activity_exception_decoration
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner__activity_exception_decoration
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner_pricelist__activity_exception_decoration
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_sale_order__activity_exception_decoration
+msgid "Activity Exception Decoration"
+msgstr "Decorador de Excepciones de Actividad"
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_product_product__activity_state
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner__activity_state
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner_pricelist__activity_state
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_sale_order__activity_state
+msgid "Activity State"
+msgstr "Estado de la Actividad"
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_product_product__activity_type_icon
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner__activity_type_icon
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner_pricelist__activity_type_icon
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_sale_order__activity_type_icon
+msgid "Activity Type Icon"
+msgstr "Icono del Tipo Actividad"
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_connections_bananas_cron__activity_user_type
+msgid "Activity User Type"
+msgstr "Tipo Usuario Actividad"
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_connections_bananas_cron__partner_ids
+msgid "Add Followers"
+msgstr "Añadir Seguidores"
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner__additional_info
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner_pricelist__additional_info
+msgid "Additional info"
+msgstr "Información Adicional"
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner__type
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner_pricelist__type
+msgid "Address Type"
+msgstr "Tipo de Dirección"
+
+#. module: connector_20bananas
+#: model:ir.model.fields,help:connector_20bananas.field_bananas_binding_res_partner__lang
+#: model:ir.model.fields,help:connector_20bananas.field_bananas_binding_res_partner_pricelist__lang
+msgid "All the emails and documents sent to this contact will be translated in this language."
+msgstr "Todos los emails y documentos enviados a este contacto serán traducidos en este idioma."
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_sale_order__amount_undiscounted
+msgid "Amount Before Discount"
+msgstr "Cantidad antes de Descuento"
+
+#. module: connector_20bananas
+#: model:ir.model.constraint,message:connector_20bananas.constraint_bananas_binding_odoo_bananas_erp_uniq
+#: model:ir.model.constraint,message:connector_20bananas.constraint_bananas_binding_product_blacklist_bananas_erp_uniq
+#: model:ir.model.constraint,message:connector_20bananas.constraint_bananas_binding_product_pricelist_bananas_erp_uniq
+#: model:ir.model.constraint,message:connector_20bananas.constraint_bananas_binding_product_pricelist_item_bananas_erp_uniq
+#: model:ir.model.constraint,message:connector_20bananas.constraint_bananas_binding_product_product_bananas_erp_uniq
+#: model:ir.model.constraint,message:connector_20bananas.constraint_bananas_binding_product_whitelist_bananas_erp_uniq
+#: model:ir.model.constraint,message:connector_20bananas.constraint_bananas_binding_res_partner_bananas_erp_uniq
+#: model:ir.model.constraint,message:connector_20bananas.constraint_bananas_binding_res_partner_pricelist_bananas_erp_uniq
+#: model:ir.model.constraint,message:connector_20bananas.constraint_bananas_binding_sale_order_bananas_erp_uniq
+msgid "An ERP record with same ID already exists on Bananas."
+msgstr "Un registro ERP  con el mismo ID ya existe en 20Bananas."
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_sale_order__analytic_account_id
+msgid "Analytic Account"
+msgstr "Cuenta Analítica"
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_product_pricelist_item__applied_on
+msgid "Apply On"
+msgstr "Aplicar En"
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_product_product__message_attachment_count
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner__message_attachment_count
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner_pricelist__message_attachment_count
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_sale_order__message_attachment_count
+msgid "Attachment Count"
+msgstr "Número de Adjuntos"
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_product_product__product_template_attribute_value_ids
+msgid "Attribute Values"
+msgstr "Valor del Atributo"
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_sale_order__authorized_transaction_ids
+msgid "Authorized Transactions"
+msgstr "Transacciones Autorizadas"
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_product_pricelist__auto_export
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_product_product__auto_export
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner__auto_export
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner_pricelist__auto_export
+#: model:ir.model.fields,field_description:connector_20bananas.field_product_pricelist__auto_export
+#: model:ir.model.fields,field_description:connector_20bananas.field_product_product__auto_export
+#: model:ir.model.fields,field_description:connector_20bananas.field_product_template__auto_export
+#: model:ir.model.fields,field_description:connector_20bananas.field_res_partner__auto_export
+#: model:ir.model.fields,field_description:connector_20bananas.field_res_users__auto_export
+msgid "Auto Export 20bananas"
+msgstr "Sincronización automática con 20bananas"
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_product_pricelist__auto_export_selection
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_product_product__auto_export_selection
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner__auto_export_selection
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner_pricelist__auto_export_selection
+#: model:ir.model.fields,field_description:connector_20bananas.field_product_pricelist__auto_export_selection
+#: model:ir.model.fields,field_description:connector_20bananas.field_product_product__auto_export_selection
+#: model:ir.model.fields,field_description:connector_20bananas.field_product_template__auto_export_selection
+#: model:ir.model.fields,field_description:connector_20bananas.field_res_partner__auto_export_selection
+#: model:ir.model.fields,field_description:connector_20bananas.field_res_users__auto_export_selection
+msgid "Auto Export to 20Bananas ?"
+msgstr "¿Sincronización automática con 20bananas?"
+
+#. module: connector_20bananas
+#: model_terms:ir.ui.view,arch_db:connector_20bananas.product_pricelist_form_export_bananas
+#: model_terms:ir.ui.view,arch_db:connector_20bananas.product_product_form_export_bananas
+#: model_terms:ir.ui.view,arch_db:connector_20bananas.product_template_form_export_bananas
+#: model_terms:ir.ui.view,arch_db:connector_20bananas.res_partner_cast_days_form
+msgid "Auto export the client to 20 Bananas?"
+msgstr "¿Sincronización automática con 20bananas?"
+
+#. module: connector_20bananas
+#: model_terms:ir.ui.view,arch_db:connector_20bananas.bananas_backend_view_form
+msgid "Automatice"
+msgstr "Automatizar"
+
+#. module: connector_20bananas
+#: model_terms:ir.ui.view,arch_db:connector_20bananas.bananas_backend_view_form
+msgid "Automatice process"
+msgstr "Automatizar proceso"
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner__avatar_1920
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner_pricelist__avatar_1920
+msgid "Avatar"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner__avatar_1024
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner_pricelist__avatar_1024
+msgid "Avatar 1024"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner__avatar_128
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner_pricelist__avatar_128
+msgid "Avatar 128"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner__avatar_256
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner_pricelist__avatar_256
+msgid "Avatar 256"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner__avatar_512
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner_pricelist__avatar_512
+msgid "Avatar 512"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_connections_bananas_cron__backend_id
+msgid "Backend"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.ui.menu,name:connector_20bananas.bananas_root_menu
+#: model_terms:ir.ui.view,arch_db:connector_20bananas.product_pricelist_form_export_bananas
+#: model_terms:ir.ui.view,arch_db:connector_20bananas.product_product_form_export_bananas
+#: model_terms:ir.ui.view,arch_db:connector_20bananas.product_template_form_export_bananas
+msgid "Bananas"
+msgstr "20Bananas"
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding__backend_id
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_odoo__backend_id
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_product_blacklist__backend_id
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_product_pricelist__backend_id
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_product_pricelist_item__backend_id
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_product_product__backend_id
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_product_whitelist__backend_id
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner__backend_id
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner_pricelist__backend_id
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_sale_order__backend_id
+msgid "Bananas Backend"
+msgstr "Conector 20Bananas"
+
+#. module: connector_20bananas
+#: model:ir.model,name:connector_20bananas.model_bananas_binding
+msgid "Bananas Binding (abstract)"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model,name:connector_20bananas.model_bananas_binding_odoo
+msgid "Bananas Binding with Odoo binding (abstract)"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.actions.act_window,name:connector_20bananas.bananas_backend_action
+#: model:ir.ui.menu,name:connector_20bananas.bananas_backend_menu
+msgid "Bananas Connections"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model,name:connector_20bananas.model_bananas_backend
+msgid "Bananas Connector Backend"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner__bananas_customer_bind_ids
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner_pricelist__bananas_customer_bind_ids
+#: model:ir.model.fields,field_description:connector_20bananas.field_res_partner__bananas_customer_bind_ids
+#: model:ir.model.fields,field_description:connector_20bananas.field_res_users__bananas_customer_bind_ids
+msgid "Bananas Customer Bindings"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.ui.menu,name:connector_20bananas.bananas_items_menu
+msgid "Bananas Items"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.ui.menu,name:connector_20bananas.bananas_operations_menu
+msgid "Bananas Operations"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_product_pricelist__bananas_pricelist_bind_ids
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_product_pricelist__bananas_pricelist_item_bind_ids
+#: model:ir.model.fields,field_description:connector_20bananas.field_product_pricelist__bananas_pricelist_bind_ids
+#: model:ir.model.fields,field_description:connector_20bananas.field_product_pricelist__bananas_pricelist_item_bind_ids
+msgid "Bananas Pricelist Bindings"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_product_product__bananas_product_bind_ids
+#: model:ir.model.fields,field_description:connector_20bananas.field_product_product__bananas_product_bind_ids
+#: model:ir.model.fields,field_description:connector_20bananas.field_product_template__bananas_product_bind_ids
+msgid "Bananas Product Bindings"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_backend__url
+msgid "Bananas URL endpoint"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner__bank_account_count
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner_pricelist__bank_account_count
+msgid "Bank"
+msgstr "Banco"
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner__bank_ids
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner_pricelist__bank_ids
+msgid "Banks"
+msgstr "Bancos"
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_product_product__barcode
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner__barcode
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner_pricelist__barcode
+msgid "Barcode"
+msgstr "Código de Barras"
+
+#. module: connector_20bananas
+#: model:ir.model.fields,help:connector_20bananas.field_bananas_binding_product_pricelist_item__base
+msgid ""
+"Base price for computation.\n"
+"Sales Price: The base price will be the Sales Price.\n"
+"Cost Price : The base price will be the cost price.\n"
+"Other Pricelist : Computation of the base price based on another Pricelist."
+msgstr ""
+"Precio base para el cálculo.\n"
+"Precio de venta: El precio base será el precio de venta.\n"
+"Precio de coste El precio base será el precio de coste.\n"
+"Otra lista de precios: Cálculo del precio base en base a otra lista de precios."
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_product_pricelist_item__base
+msgid "Based on"
+msgstr "Basado en"
+
+#. module: connector_20bananas
+#: model_terms:ir.ui.view,arch_db:connector_20bananas.bananas_backend_view_form
+#: model_terms:ir.ui.view,arch_db:connector_20bananas.bananas_product_pricelist_binding_view_form
+#: model_terms:ir.ui.view,arch_db:connector_20bananas.bananas_product_pricelist_item_binding_view_form
+#: model_terms:ir.ui.view,arch_db:connector_20bananas.bananas_product_template_binding_view_form
+#: model_terms:ir.ui.view,arch_db:connector_20bananas.bananas_res_partner_binding_view_form
+msgid "Basic Information"
+msgstr "Información Básica"
+
+#. module: connector_20bananas
+#: code:addons/connector_20bananas/models/bananas_backend/common.py:0
+#, python-format
+msgid "Before asociate the clients with his rates, introduce the endpoint"
+msgstr "Antes de asociar los clientes con sus tarifas, hay que introducir el  \"endpoint\" de la API"
+
+#. module: connector_20bananas
+#: code:addons/connector_20bananas/models/res_partner/importer.py:0
+#, python-format
+msgid "Before asociate the rate to a cliente, import clients"
+msgstr "Antes de asociar la tarifa a un cliente, hay que importar los clientes"
+
+#. module: connector_20bananas
+#: code:addons/connector_20bananas/models/res_partner/importer.py:0
+#, python-format
+msgid "Before asociate the rate to a cliente, import rates"
+msgstr "Antes de asociar la tarifa a un cliente, hay que importar los tarifas"
+
+#. module: connector_20bananas
+#: code:addons/connector_20bananas/models/bananas_backend/common.py:0
+#, python-format
+msgid "Before import the clients please, introduce the endpoint"
+msgstr "Antes de importar los clientes,hay que introducir el  \"endpoint\" de la API"
+
+#. module: connector_20bananas
+#: code:addons/connector_20bananas/models/bananas_backend/common.py:0
+#, python-format
+msgid "Before import the order sale please, introduce the endpoint"
+msgstr "Antes de importar los pedidos,hay que introducir el  \"endpoint\" de la API"
+
+#. module: connector_20bananas
+#: code:addons/connector_20bananas/models/bananas_backend/common.py:0
+#, python-format
+msgid "Before import the product please, introduce the endpoint"
+msgstr "Antes de importar los productos,hay que introducir el  \"endpoint\" de la API"
+
+#. module: connector_20bananas
+#: code:addons/connector_20bananas/models/bananas_backend/common.py:0
+#, python-format
+msgid "Before import the rate for price item please, introduce the endpoint"
+msgstr "Antes de importar los precios en las tarifas,hay que introducir el  \"endpoint\" de la API"
+
+#. module: connector_20bananas
+#: code:addons/connector_20bananas/models/bananas_backend/common.py:0
+#, python-format
+msgid "Before import the rate for price please, introduce the endpoint"
+msgstr "Antes de importar los precios en las tarifas,hay que introducir el  \"endpoint\" de la API"
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_connections_bananas_cron__binding_model_id
+msgid "Binding Model"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_connections_bananas_cron__binding_type
+msgid "Binding Type"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_connections_bananas_cron__binding_view_types
+msgid "Binding View Types"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner__is_blacklisted
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner_pricelist__is_blacklisted
+msgid "Blacklist"
+msgstr "Lista Negra"
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner__mobile_blacklisted
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner_pricelist__mobile_blacklisted
+msgid "Blacklisted Phone Is Mobile"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner__phone_blacklisted
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner_pricelist__phone_blacklisted
+msgid "Blacklisted Phone is Phone"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner__message_bounce
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner_pricelist__message_bounce
+msgid "Bounce"
+msgstr "Rebote"
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_sale_order__campaign_id
+msgid "Campaign"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_product_product__can_image_1024_be_zoomed
+msgid "Can Image 1024 be zoomed"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_product_product__can_image_variant_1024_be_zoomed
+msgid "Can Variant Image 1024 be zoomed"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_product_product__purchase_ok
+msgid "Can be Purchased"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_product_product__sale_ok
+msgid "Can be Sold"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_product_product__route_from_categ_ids
+msgid "Category Routes"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner__channel_ids
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner_pricelist__channel_ids
+msgid "Channels"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,help:connector_20bananas.field_bananas_binding_res_partner__is_company
+#: model:ir.model.fields,help:connector_20bananas.field_bananas_binding_res_partner_pricelist__is_company
+msgid "Check if the contact is a company, otherwise it is a person"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,help:connector_20bananas.field_bananas_binding_res_partner__employee
+#: model:ir.model.fields,help:connector_20bananas.field_bananas_binding_res_partner_pricelist__employee
+msgid "Check this box if this contact is an Employee."
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_connections_bananas_cron__child_ids
+msgid "Child Actions"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,help:connector_20bananas.field_connections_bananas_cron__child_ids
+msgid ""
+"Child server actions that will be executed. Note that the last return returned action value will be "
+"used as global return value."
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner__city
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner_pricelist__city
+msgid "City"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_delivery_days__partner_ids
+msgid "Clients"
+msgstr ""
+
+#. module: connector_20bananas
+#: model_terms:ir.ui.view,arch_db:connector_20bananas.create_cron_bananas_backend_form
+msgid "Close"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_product_product__color
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner__color
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner_pricelist__color
+msgid "Color Index"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_product_product__combination_indices
+msgid "Combination Indices"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner__commercial_partner_id
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner_pricelist__commercial_partner_id
+msgid "Commercial Entity"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner__ref_company_ids
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner_pricelist__ref_company_ids
+msgid "Companies that refers to partner"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_product_pricelist__company_id
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_product_pricelist_item__company_id
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_product_product__company_id
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner__company_id
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner_pricelist__company_id
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_sale_order__company_id
+msgid "Company"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner__company_name
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner_pricelist__company_name
+msgid "Company Name"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner__commercial_company_name
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner_pricelist__commercial_company_name
+msgid "Company Name Entity"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner__company_type
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner_pricelist__company_type
+msgid "Company Type"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner__partner_gid
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner_pricelist__partner_gid
+msgid "Company database ID"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner__contact_address
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner_pricelist__contact_address
+msgid "Complete Address"
+msgstr ""
+
+#. module: connector_20bananas
+#: code:addons/connector_20bananas/models/product_product/exporter.py:0
+#, python-format
+msgid "Complete the field 'Internal Reference', before send the product information to 20 Bananas"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,help:connector_20bananas.field_bananas_binding_sale_order__effective_date
+msgid "Completion date of the first delivery order."
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_product_pricelist_item__compute_price
+msgid "Compute Price"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model,name:connector_20bananas.model_res_partner
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner__child_ids
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner_pricelist__child_ids
+msgid "Contact"
+msgstr "Contacto"
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_product_product__standard_price
+msgid "Cost"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_product_product__cost_currency_id
+msgid "Cost Currency"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_product_product__cost_method
+msgid "Costing Method"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,help:connector_20bananas.field_bananas_binding_res_partner__message_bounce
+#: model:ir.model.fields,help:connector_20bananas.field_bananas_binding_res_partner_pricelist__message_bounce
+msgid "Counter of the number of bounced emails for this contact"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner__country_id
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner_pricelist__country_id
+msgid "Country"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner__country_code
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner_pricelist__country_code
+msgid "Country Code"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_product_pricelist__country_group_ids
+msgid "Country Groups"
+msgstr ""
+
+#. module: connector_20bananas
+#: code:addons/connector_20bananas/models/bananas_backend/common.py:0
+#, python-format
+msgid "Create Cron Client"
+msgstr ""
+
+#. module: connector_20bananas
+#: code:addons/connector_20bananas/models/bananas_backend/common.py:0
+#, python-format
+msgid "Create Cron Orders"
+msgstr ""
+
+#. module: connector_20bananas
+#: code:addons/connector_20bananas/models/bananas_backend/common.py:0
+#, python-format
+msgid "Create Cron Product"
+msgstr ""
+
+#. module: connector_20bananas
+#: code:addons/connector_20bananas/models/bananas_backend/common.py:0
+#, python-format
+msgid "Create Cron Rate Items"
+msgstr ""
+
+#. module: connector_20bananas
+#: code:addons/connector_20bananas/models/bananas_backend/common.py:0
+#, python-format
+msgid "Create Cron Rates"
+msgstr ""
+
+#. module: connector_20bananas
+#: code:addons/connector_20bananas/models/bananas_backend/common.py:0
+#, python-format
+msgid "Create Cron Rates forClient"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model,name:connector_20bananas.model_wizard_cron_bananas_conector
+msgid "Create the cron for the backend conector"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_backend__create_uid
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_product_blacklist__create_uid
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_product_pricelist__create_uid
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_product_pricelist_item__create_uid
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_product_product__create_uid
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_product_whitelist__create_uid
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner__create_uid
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner_pricelist__create_uid
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_sale_order__create_uid
+#: model:ir.model.fields,field_description:connector_20bananas.field_connections_bananas_cron__create_uid
+#: model:ir.model.fields,field_description:connector_20bananas.field_delivery_days__create_uid
+#: model:ir.model.fields,field_description:connector_20bananas.field_product_blacklist__create_uid
+#: model:ir.model.fields,field_description:connector_20bananas.field_product_whitelist__create_uid
+#: model:ir.model.fields,field_description:connector_20bananas.field_wizard_cron_bananas_conector__create_uid
+msgid "Created by"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_backend__create_date
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_product_blacklist__create_date
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_product_pricelist__create_date
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_product_pricelist_item__create_date
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_product_product__create_date
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_product_whitelist__create_date
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner__create_date
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner_pricelist__create_date
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_sale_order__create_date
+#: model:ir.model.fields,field_description:connector_20bananas.field_connections_bananas_cron__create_date
+#: model:ir.model.fields,field_description:connector_20bananas.field_delivery_days__create_date
+#: model:ir.model.fields,field_description:connector_20bananas.field_product_blacklist__create_date
+#: model:ir.model.fields,field_description:connector_20bananas.field_product_whitelist__create_date
+#: model:ir.model.fields,field_description:connector_20bananas.field_wizard_cron_bananas_conector__create_date
+msgid "Created on"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,help:connector_20bananas.field_bananas_binding_sale_order__date_order
+msgid ""
+"Creation date of draft/sent orders,\n"
+"Confirmation date of confirmed orders."
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner__credit_limit
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner_pricelist__credit_limit
+msgid "Credit Limit"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_connections_bananas_cron__cron_id
+msgid "Cron"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model,name:connector_20bananas.model_connections_bananas_cron
+msgid "Cron Trigger"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_backend__cron_count
+#: model_terms:ir.ui.view,arch_db:connector_20bananas.bananas_backend_view_form
+msgid "Crons"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_product_pricelist__currency_id
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_product_pricelist_item__currency_id
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_product_product__currency_id
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner__currency_id
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner_pricelist__currency_id
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_sale_order__currency_id
+msgid "Currency"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_sale_order__currency_rate
+msgid "Currency Rate"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,help:connector_20bananas.field_bananas_binding_product_product__qty_available
+msgid ""
+"Current quantity of products.\n"
+"In a context with a single Stock Location, this includes goods stored at this Location, or any of "
+"its children.\n"
+"In a context with a single Warehouse, this includes goods stored in the Stock Location of this "
+"Warehouse, or any of its children.\n"
+"stored in the Stock Location of the Warehouse of this Shop, or any of its children.\n"
+"Otherwise, this includes goods stored in any Stock Location with 'internal' type."
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_sale_order__partner_id
+msgid "Customer"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_product_product__sale_delay
+msgid "Customer Lead Time"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner__property_stock_customer
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner_pricelist__property_stock_customer
+msgid "Customer Location"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner__property_payment_term_id
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner_pricelist__property_payment_term_id
+msgid "Customer Payment Terms"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,help:connector_20bananas.field_bananas_binding_sale_order__access_url
+msgid "Customer Portal URL"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner__customer_rank
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner_pricelist__customer_rank
+msgid "Customer Rank"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_product_product__partner_ref
+msgid "Customer Ref"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_sale_order__client_order_ref
+msgid "Customer Reference"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_product_product__taxes_id
+msgid "Customer Taxes"
+msgstr ""
+
+#. module: connector_20bananas
+#: model_terms:ir.ui.view,arch_db:connector_20bananas.res_partner_cast_days_form
+msgid "Customer in Bananas"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner__date
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner_pricelist__date
+msgid "Date"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_backend__date_of_order_sale
+msgid "Date for the order sale"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,help:connector_20bananas.field_bananas_binding_sale_order__signed_on
+msgid "Date of the signature."
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_delivery_days__name
+msgid "Day"
+msgstr "Día"
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_delivery_days__dayofweek
+msgid "Day of Week"
+msgstr "Día de la Semana"
+
+#. module: connector_20bananas
+#: model:ir.model.fields.selection,name:connector_20bananas.selection__wizard_cron_bananas_conector__interval_type__days
+msgid "Days"
+msgstr "Dias"
+
+#. module: connector_20bananas
+#: model:ir.model.fields,help:connector_20bananas.field_bananas_binding_product_product__supplier_taxes_id
+msgid "Default taxes used when buying the product."
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,help:connector_20bananas.field_bananas_binding_product_product__taxes_id
+msgid "Default taxes used when selling the product."
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,help:connector_20bananas.field_bananas_binding_product_product__uom_id
+msgid "Default unit of measure used for all stock operations."
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,help:connector_20bananas.field_bananas_binding_product_product__uom_po_id
+msgid ""
+"Default unit of measure used for purchase orders. It must be in the same category as the default "
+"unit of measure."
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,help:connector_20bananas.field_bananas_binding_product_product__seller_ids
+msgid "Define vendor pricelists."
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner__trust
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner_pricelist__trust
+msgid "Degree of trust you have in this debtor"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_sale_order__partner_shipping_id
+msgid "Delivery Address"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_sale_order__commitment_date
+msgid "Delivery Date"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.actions.act_window,name:connector_20bananas.delivery_days_view_action
+#: model:ir.model,name:connector_20bananas.model_delivery_days
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner__delivery_days_ids
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner_pricelist__delivery_days_ids
+#: model:ir.model.fields,field_description:connector_20bananas.field_res_partner__delivery_days_ids
+#: model:ir.model.fields,field_description:connector_20bananas.field_res_users__delivery_days_ids
+#: model:ir.ui.menu,name:connector_20bananas.delivery_days_menu
+msgid "Delivery Days"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_sale_order__delivery_count
+msgid "Delivery Orders"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,help:connector_20bananas.field_bananas_binding_sale_order__expected_date
+msgid ""
+"Delivery date you can promise to the customer, computed from the minimum lead time of the order "
+"lines in case of Service products. In case of shipping, the shipping policy of the order will be "
+"taken into account to either use the minimum or maximum lead time of the order lines."
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,help:connector_20bananas.field_bananas_binding_product_product__sale_delay
+msgid ""
+"Delivery lead time, in days. It's the number of days, promised to the customer, between the "
+"confirmation of the sales order and the delivery."
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,help:connector_20bananas.field_bananas_binding_product_product__route_ids
+msgid ""
+"Depending on the modules installed, this will allow you to define the route of the product: whether "
+"it will be bought, manufactured, replenished on order, etc."
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_product_product__description
+msgid "Description"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_product_product__description_pickingout
+msgid "Description on Delivery Orders"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_product_product__description_picking
+msgid "Description on Picking"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_product_product__description_pickingin
+msgid "Description on Receptions"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_product_pricelist__discount_policy
+msgid "Discount Policy"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_backend__display_name
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_product_blacklist__display_name
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_product_pricelist__display_name
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_product_pricelist_item__display_name
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_product_product__display_name
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_product_whitelist__display_name
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner__display_name
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner_pricelist__display_name
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_sale_order__display_name
+#: model:ir.model.fields,field_description:connector_20bananas.field_connections_bananas_cron__display_name
+#: model:ir.model.fields,field_description:connector_20bananas.field_delivery_days__display_name
+#: model:ir.model.fields,field_description:connector_20bananas.field_product_blacklist__display_name
+#: model:ir.model.fields,field_description:connector_20bananas.field_product_whitelist__display_name
+#: model:ir.model.fields,field_description:connector_20bananas.field_wizard_cron_bananas_conector__display_name
+msgid "Display Name"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_connections_bananas_cron__activity_date_deadline_range
+msgid "Due Date In"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_connections_bananas_cron__activity_date_deadline_range_type
+msgid "Due type"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_sale_order__effective_date
+msgid "Effective Date"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,help:connector_20bananas.field_bananas_binding_res_partner__partner_share
+#: model:ir.model.fields,help:connector_20bananas.field_bananas_binding_res_partner_pricelist__partner_share
+msgid ""
+"Either customer (not a user), either shared user. Indicated the current partner is a customer "
+"without access or with a limited access created for sharing data."
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner__email
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner_pricelist__email
+msgid "Email"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_connections_bananas_cron__template_id
+msgid "Email Template"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner__employee
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner_pricelist__employee
+msgid "Employee"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_product_pricelist_item__date_end
+msgid "End Date"
+msgstr ""
+
+#. module: connector_20bananas
+#: model_terms:ir.ui.view,arch_db:connector_20bananas.bananas_backend_view_form
+msgid "End Point"
+msgstr "EndPoint"
+
+#. module: connector_20bananas
+#: model:ir.model.fields,help:connector_20bananas.field_bananas_binding_product_pricelist_item__date_end
+msgid ""
+"Ending datetime for the pricelist item validation\n"
+"The displayed value depends on the timezone set in your preferences."
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_backend__endpoint_clients
+msgid "Endpoint for Clients"
+msgstr "Endpoint para Clientes"
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_backend__endpoint_products
+msgid "Endpoint for Products"
+msgstr "Endpoint para Productos"
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_backend__endpoint_product_pricelist_client
+msgid "Endpoint for asociate rate to client"
+msgstr "Endpoint para asociar Tarifas a Clientes"
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_backend__endpoint_product_pricelist_item
+msgid "Endpoint for produt with rate"
+msgstr "Endpoint para asociar productos a tarifas"
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_backend__endpoint_product_pricelist
+msgid "Endpoint for the rate"
+msgstr "Endpoint para Tarifas"
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_backend__endpoint_order_sale
+msgid "Enpoint for order sale"
+msgstr "Endpoint para Pedidos de Ventas"
+
+#. module: connector_20bananas
+#: model:ir.model.fields,help:connector_20bananas.field_bananas_binding_product_product__tracking
+msgid "Ensure the traceability of a storable product in your warehouse."
+msgstr ""
+
+#. module: connector_20bananas
+#: model_terms:ir.ui.view,arch_db:connector_20bananas.conections_bananas_cron_views_form
+msgid ""
+"Enter Python code here. Help about Python expression is available in the help tab of this document."
+msgstr ""
+
+#. module: connector_20bananas
+#: model_terms:ir.ui.view,arch_db:connector_20bananas.conections_bananas_cron_views_form
+msgid "Execute Every"
+msgstr "Ejecutar cada"
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_sale_order__expected_date
+msgid "Expected Date"
+msgstr "Fecha prevista"
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_product_product__property_account_expense_id
+msgid "Expense Account"
+msgstr "Cuenta de gasto"
+
+#. module: connector_20bananas
+#: model:ir.model.fields,help:connector_20bananas.field_bananas_binding_product_product__expense_policy
+msgid ""
+"Expenses and vendor bills can be re-invoiced to a customer.With this option, a validated expense "
+"can be re-invoice to a customer at its cost or sales price."
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_sale_order__validity_date
+msgid "Expiration"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,help:connector_20bananas.field_bananas_binding_product_pricelist_item__name
+#: model:ir.model.fields,help:connector_20bananas.field_bananas_binding_product_pricelist_item__price
+msgid "Explicit rule name for this pricelist line."
+msgstr ""
+
+#. module: connector_20bananas
+#: model_terms:ir.ui.view,arch_db:connector_20bananas.res_partner_cast_days_form
+msgid "Export Client"
+msgstr "Sincronizar Cliente"
+
+#. module: connector_20bananas
+#: model_terms:ir.ui.view,arch_db:connector_20bananas.res_partner_cast_days_form
+msgid "Export Client pricelist"
+msgstr "Sincronizar Tarifa Cliente"
+
+#. module: connector_20bananas
+#: model_terms:ir.ui.view,arch_db:connector_20bananas.product_product_form_export_bananas
+#: model_terms:ir.ui.view,arch_db:connector_20bananas.product_template_form_export_bananas
+msgid "Export Product"
+msgstr "Sincronizar Producto"
+
+#. module: connector_20bananas
+#: model_terms:ir.ui.view,arch_db:connector_20bananas.product_pricelist_form_export_bananas
+msgid "Export Rate"
+msgstr "Sincronizar Tarifa"
+
+#. module: connector_20bananas
+#: model_terms:ir.ui.view,arch_db:connector_20bananas.product_pricelist_form_export_bananas
+msgid "Export Rate Item"
+msgstr "Sincronizar Producto Tarifa"
+
+#. module: connector_20bananas
+#: model_terms:ir.ui.view,arch_db:connector_20bananas.product_pricelist_form_export_bananas
+msgid "Export client Item"
+msgstr "Sincronizar Cliente Tarifa"
+
+#. module: connector_20bananas
+#: model:ir.actions.server,name:connector_20bananas.res_parnet_rate_auto_export_bananas_cron_ir_actions_server
+#: model:ir.cron,cron_name:connector_20bananas.res_parnet_rate_auto_export_bananas_cron
+#: model:ir.cron,name:connector_20bananas.res_parnet_rate_auto_export_bananas_cron
+msgid "Export the clients rate that are select to bananas application"
+msgstr "Sincroniza las tarifas de los clientes que son seleccionados en la aplicación de 20Bananas"
+
+#. module: connector_20bananas
+#: model:ir.actions.server,name:connector_20bananas.res_parnet_auto_export_bananas_cron_ir_actions_server
+#: model:ir.cron,cron_name:connector_20bananas.res_parnet_auto_export_bananas_cron
+#: model:ir.cron,name:connector_20bananas.res_parnet_auto_export_bananas_cron
+msgid "Export the clients that are select to bananas application"
+msgstr "Sincroniza los clientes que son seleccionados en la aplicación de 20Bananas"
+
+#. module: connector_20bananas
+#: model:ir.actions.server,name:connector_20bananas.product_rate_auto_export_bananas_cron_ir_actions_server
+#: model:ir.cron,cron_name:connector_20bananas.product_rate_auto_export_bananas_cron
+#: model:ir.cron,name:connector_20bananas.product_rate_auto_export_bananas_cron
+msgid "Export the product rate that are select to bananas application"
+msgstr "Sincroniza los productos de las tarifas que son seleccionados en la aplicación de 20Bananas"
+
+#. module: connector_20bananas
+#: model:ir.actions.server,name:connector_20bananas.product_auto_export_bananas_cron_ir_actions_server
+#: model:ir.cron,cron_name:connector_20bananas.product_auto_export_bananas_cron
+#: model:ir.cron,name:connector_20bananas.product_auto_export_bananas_cron
+msgid "Export the product that are select to bananas application"
+msgstr "Sincroniza los productos que son seleccionados en la aplicación de 20Bananas"
+
+#. module: connector_20bananas
+#: model:ir.actions.server,name:connector_20bananas.product_pricelist_export_bananas
+#: model:ir.actions.server,name:connector_20bananas.product_template_export_bananas
+#: model:ir.actions.server,name:connector_20bananas.res_partner_export_bananas
+msgid "Export to 20Bananas"
+msgstr "Sincronizar con 20Bananas"
+
+#. module: connector_20bananas
+#: model:ir.actions.server,name:connector_20bananas.res_partner_export_bananas_client_rates
+msgid "Export to 20Bananas Client rates"
+msgstr "Sincronizar Tarifas CLientes"
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_connections_bananas_cron__xml_id
+msgid "External ID"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_product_product__priority
+msgid "Favorite"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,help:connector_20bananas.field_bananas_binding_res_partner__phone_sanitized
+#: model:ir.model.fields,help:connector_20bananas.field_bananas_binding_res_partner_pricelist__phone_sanitized
+msgid "Field used to store sanitized phone number. Helps speeding up searches and comparisons."
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner__property_account_position_id
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner_pricelist__property_account_position_id
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_sale_order__fiscal_position_id
+msgid "Fiscal Position"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,help:connector_20bananas.field_bananas_binding_sale_order__fiscal_position_id
+msgid ""
+"Fiscal positions are used to adapt taxes and accounts for particular customers or sales orders/"
+"invoices.The default value comes from the customer."
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_product_pricelist_item__fixed_price
+msgid "Fixed Price"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_product_product__message_follower_ids
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner__message_follower_ids
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner_pricelist__message_follower_ids
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_sale_order__message_follower_ids
+msgid "Followers"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_product_product__message_partner_ids
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner__message_partner_ids
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner_pricelist__message_partner_ids
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_sale_order__message_partner_ids
+msgid "Followers (Partners)"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,help:connector_20bananas.field_bananas_binding_product_product__activity_type_icon
+#: model:ir.model.fields,help:connector_20bananas.field_bananas_binding_res_partner__activity_type_icon
+#: model:ir.model.fields,help:connector_20bananas.field_bananas_binding_res_partner_pricelist__activity_type_icon
+#: model:ir.model.fields,help:connector_20bananas.field_bananas_binding_sale_order__activity_type_icon
+msgid "Font awesome icon e.g. fa-tasks"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,help:connector_20bananas.field_bananas_binding_product_pricelist_item__min_quantity
+msgid ""
+"For the rule to apply, bought/sold quantity must be greater than or equal to the minimum quantity "
+"specified in this field.\n"
+"Expressed in the default unit of measure of the product."
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,help:connector_20bananas.field_bananas_binding_product_product__virtual_available
+msgid ""
+"Forecast quantity (computed as Quantity On Hand - Outgoing + Incoming)\n"
+"In a context with a single Stock Location, this includes goods stored in this location, or any of "
+"its children.\n"
+"In a context with a single Warehouse, this includes goods stored in the Stock Location of this "
+"Warehouse, or any of its children.\n"
+"Otherwise, this includes goods stored in any Stock Location with 'internal' type."
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,help:connector_20bananas.field_bananas_binding_product_product__free_qty
+msgid ""
+"Forecast quantity (computed as Quantity On Hand - reserved quantity)\n"
+"In a context with a single Stock Location, this includes goods stored in this location, or any of "
+"its children.\n"
+"In a context with a single Warehouse, this includes goods stored in the Stock Location of this "
+"Warehouse, or any of its children.\n"
+"Otherwise, this includes goods stored in any Stock Location with 'internal' type."
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_product_product__virtual_available
+msgid "Forecasted Quantity"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,help:connector_20bananas.field_bananas_binding_res_partner__email_formatted
+#: model:ir.model.fields,help:connector_20bananas.field_bananas_binding_res_partner_pricelist__email_formatted
+msgid "Format email address \"Name <email@domain>\""
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner__email_formatted
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner_pricelist__email_formatted
+msgid "Formatted Email"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_product_product__free_qty
+msgid "Free To Use Quantity "
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields.selection,name:connector_20bananas.selection__delivery_days__dayofweek__4
+msgid "Friday"
+msgstr "Viernes"
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner__partner_latitude
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner_pricelist__partner_latitude
+msgid "Geo Latitude"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner__partner_longitude
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner_pricelist__partner_longitude
+msgid "Geo Longitude"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,help:connector_20bananas.field_bananas_binding_product_product__packaging_ids
+msgid "Gives the different ways to package the same product."
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,help:connector_20bananas.field_bananas_binding_product_product__sequence
+msgid "Gives the sequence order when displaying a product list"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_connections_bananas_cron__groups_id
+msgid "Groups"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_product_product__has_message
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner__has_message
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner_pricelist__has_message
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_sale_order__has_message
+msgid "Has Message"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_sale_order__show_update_pricelist
+msgid "Has Pricelist Changed"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner__has_unreconciled_entries
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner_pricelist__has_unreconciled_entries
+msgid "Has Unreconciled Entries"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_sale_order__show_json_popover
+msgid "Has late picking"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields.selection,name:connector_20bananas.selection__wizard_cron_bananas_conector__interval_type__hours
+msgid "Hours"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,help:connector_20bananas.field_connections_bananas_cron__numbercall
+#: model:ir.model.fields,help:connector_20bananas.field_wizard_cron_bananas_conector__numbercall
+msgid ""
+"How many times the method is called,\n"
+"a negative number indicates no limit."
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_backend__id
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_product_blacklist__id
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_product_pricelist__id
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_product_pricelist_item__id
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_product_product__id
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_product_whitelist__id
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner__id
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner_pricelist__id
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_sale_order__id
+#: model:ir.model.fields,field_description:connector_20bananas.field_connections_bananas_cron__id
+#: model:ir.model.fields,field_description:connector_20bananas.field_delivery_days__id
+#: model:ir.model.fields,field_description:connector_20bananas.field_product_blacklist__id
+#: model:ir.model.fields,field_description:connector_20bananas.field_product_whitelist__id
+#: model:ir.model.fields,field_description:connector_20bananas.field_wizard_cron_bananas_conector__id
+msgid "ID"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding__bananas_id
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_odoo__bananas_id
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_product_blacklist__bananas_id
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_product_pricelist__bananas_id
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_product_pricelist_item__bananas_id
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_product_product__bananas_id
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_product_whitelist__bananas_id
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner__bananas_id
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner_pricelist__bananas_id
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_sale_order__bananas_id
+msgid "ID on Bananas"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner__im_status
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner_pricelist__im_status
+msgid "IM Status"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_product_product__activity_exception_icon
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner__activity_exception_icon
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner_pricelist__activity_exception_icon
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_sale_order__activity_exception_icon
+msgid "Icon"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,help:connector_20bananas.field_bananas_binding_product_product__activity_exception_icon
+#: model:ir.model.fields,help:connector_20bananas.field_bananas_binding_res_partner__activity_exception_icon
+#: model:ir.model.fields,help:connector_20bananas.field_bananas_binding_res_partner_pricelist__activity_exception_icon
+#: model:ir.model.fields,help:connector_20bananas.field_bananas_binding_sale_order__activity_exception_icon
+msgid "Icon to indicate an exception activity."
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,help:connector_20bananas.field_bananas_binding_product_product__message_needaction
+#: model:ir.model.fields,help:connector_20bananas.field_bananas_binding_product_product__message_unread
+#: model:ir.model.fields,help:connector_20bananas.field_bananas_binding_res_partner__message_needaction
+#: model:ir.model.fields,help:connector_20bananas.field_bananas_binding_res_partner__message_unread
+#: model:ir.model.fields,help:connector_20bananas.field_bananas_binding_res_partner_pricelist__message_needaction
+#: model:ir.model.fields,help:connector_20bananas.field_bananas_binding_res_partner_pricelist__message_unread
+#: model:ir.model.fields,help:connector_20bananas.field_bananas_binding_sale_order__message_needaction
+#: model:ir.model.fields,help:connector_20bananas.field_bananas_binding_sale_order__message_unread
+msgid "If checked, new messages require your attention."
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,help:connector_20bananas.field_bananas_binding_product_product__message_has_error
+#: model:ir.model.fields,help:connector_20bananas.field_bananas_binding_product_product__message_has_sms_error
+#: model:ir.model.fields,help:connector_20bananas.field_bananas_binding_res_partner__message_has_error
+#: model:ir.model.fields,help:connector_20bananas.field_bananas_binding_res_partner__message_has_sms_error
+#: model:ir.model.fields,help:connector_20bananas.field_bananas_binding_res_partner_pricelist__message_has_error
+#: model:ir.model.fields,help:connector_20bananas.field_bananas_binding_res_partner_pricelist__message_has_sms_error
+#: model:ir.model.fields,help:connector_20bananas.field_bananas_binding_sale_order__message_has_error
+#: model:ir.model.fields,help:connector_20bananas.field_bananas_binding_sale_order__message_has_sms_error
+msgid "If checked, some messages have a delivery error."
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,help:connector_20bananas.field_bananas_binding_res_partner__team_id
+#: model:ir.model.fields,help:connector_20bananas.field_bananas_binding_res_partner_pricelist__team_id
+msgid "If set, this Sales Team will be used for sales and assignments related to this partner"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,help:connector_20bananas.field_bananas_binding_res_partner__is_blacklisted
+#: model:ir.model.fields,help:connector_20bananas.field_bananas_binding_res_partner_pricelist__is_blacklisted
+msgid ""
+"If the email address is on the blacklist, the contact won't receive mass mailing anymore, from any "
+"list"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,help:connector_20bananas.field_bananas_binding_res_partner__phone_sanitized_blacklisted
+#: model:ir.model.fields,help:connector_20bananas.field_bananas_binding_res_partner_pricelist__phone_sanitized_blacklisted
+msgid ""
+"If the sanitized phone number is on the blacklist, the contact won't receive mass mailing sms "
+"anymore, from any list"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,help:connector_20bananas.field_bananas_binding_product_pricelist__active
+#: model:ir.model.fields,help:connector_20bananas.field_bananas_binding_product_pricelist_item__active
+msgid "If unchecked, it will allow you to hide the pricelist without removing it."
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,help:connector_20bananas.field_bananas_binding_product_product__active
+msgid "If unchecked, it will allow you to hide the product without removing it."
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,help:connector_20bananas.field_bananas_binding_sale_order__pricelist_id
+msgid "If you change the pricelist, only newly added lines will be affected."
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,help:connector_20bananas.field_bananas_binding_sale_order__picking_policy
+msgid ""
+"If you deliver all products at once, the delivery order will be scheduled based on the greatest "
+"product lead time. Otherwise, it will be based on the shortest."
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_product_product__image_1920
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner__image_1920
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner_pricelist__image_1920
+msgid "Image"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_product_product__image_1024
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner__image_1024
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner_pricelist__image_1024
+msgid "Image 1024"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_product_product__image_128
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner__image_128
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner_pricelist__image_128
+msgid "Image 128"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_product_product__image_256
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner__image_256
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner_pricelist__image_256
+msgid "Image 256"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_product_product__image_512
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner__image_512
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner_pricelist__image_512
+msgid "Image 512"
+msgstr ""
+
+#. module: connector_20bananas
+#: model_terms:ir.ui.view,arch_db:connector_20bananas.bananas_backend_view_form
+msgid "Import"
+msgstr "Importar"
+
+#. module: connector_20bananas
+#: model_terms:ir.ui.view,arch_db:connector_20bananas.bananas_backend_view_form
+msgid "Import Buttons"
+msgstr "Botones para Importar"
+
+#. module: connector_20bananas
+#: model_terms:ir.ui.view,arch_db:connector_20bananas.bananas_backend_view_form
+msgid "Import Clients"
+msgstr "Importar Clientes"
+
+#. module: connector_20bananas
+#: model_terms:ir.ui.view,arch_db:connector_20bananas.bananas_backend_view_form
+msgid "Import Order Sale"
+msgstr "Importar Pedidos de Ventas"
+
+#. module: connector_20bananas
+#: model_terms:ir.ui.view,arch_db:connector_20bananas.bananas_backend_view_form
+msgid "Import Products"
+msgstr "Importar Productos"
+
+#. module: connector_20bananas
+#: model_terms:ir.ui.view,arch_db:connector_20bananas.bananas_backend_view_form
+msgid "Import Rate"
+msgstr "Importar Tarifas"
+
+#. module: connector_20bananas
+#: model_terms:ir.ui.view,arch_db:connector_20bananas.bananas_backend_view_form
+msgid "Import Rate Clients"
+msgstr "Importar Tarifas Clientes"
+
+#. module: connector_20bananas
+#: model_terms:ir.ui.view,arch_db:connector_20bananas.bananas_backend_view_form
+msgid "Import Rate item"
+msgstr "Importar Tarifas Productos"
+
+#. module: connector_20bananas
+#: model_terms:ir.ui.view,arch_db:connector_20bananas.bananas_backend_view_form
+msgid "Imports Clients"
+msgstr "Importar Clientes"
+
+#. module: connector_20bananas
+#: model_terms:ir.ui.view,arch_db:connector_20bananas.bananas_backend_view_form
+msgid "Imports Products"
+msgstr "Importar Productos"
+
+#. module: connector_20bananas
+#: model_terms:ir.ui.view,arch_db:connector_20bananas.bananas_backend_view_form
+msgid "Imports Rates"
+msgstr "Importar Tarifas"
+
+#. module: connector_20bananas
+#: model_terms:ir.ui.view,arch_db:connector_20bananas.bananas_backend_view_form
+msgid "Imports Sale Orders"
+msgstr "Importar Pedidos de Ventas"
+
+#. module: connector_20bananas
+#: model:ir.model.fields,help:connector_20bananas.field_bananas_binding_product_product__standard_price
+msgid ""
+"In Standard Price & AVCO: value of the product (automatically computed in AVCO).\n"
+"        In FIFO: value of the last unit that left the stock (automatically computed).\n"
+"        Used to value the product when the purchase cost is not known (e.g. inventory adjustment).\n"
+"        Used to compute margins on sale orders."
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_product_product__property_account_income_id
+msgid "Income Account"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_product_product__incoming_qty
+msgid "Incoming"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_sale_order__incoterm
+msgid "Incoterm"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,help:connector_20bananas.field_bananas_binding_res_partner__mobile_blacklisted
+#: model:ir.model.fields,help:connector_20bananas.field_bananas_binding_res_partner_pricelist__mobile_blacklisted
+msgid ""
+"Indicates if a blacklisted sanitized phone number is a mobile number. Helps distinguish which "
+"number is blacklisted             when there is both a mobile and phone field in a model."
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,help:connector_20bananas.field_bananas_binding_res_partner__phone_blacklisted
+#: model:ir.model.fields,help:connector_20bananas.field_bananas_binding_res_partner_pricelist__phone_blacklisted
+msgid ""
+"Indicates if a blacklisted sanitized phone number is a phone number. Helps distinguish which number "
+"is blacklisted             when there is both a mobile and phone field in a model."
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner__industry_id
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner_pricelist__industry_id
+msgid "Industry"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_product_product__default_code
+msgid "Internal Reference"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,help:connector_20bananas.field_bananas_binding_product_product__barcode
+msgid "International Article Number used for product identification."
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,help:connector_20bananas.field_bananas_binding_sale_order__incoterm
+msgid ""
+"International Commercial Terms are a series of predefined commercial terms used in international "
+"transactions."
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_connections_bananas_cron__interval_number
+msgid "Interval Number"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_connections_bananas_cron__interval_type
+#: model:ir.model.fields,field_description:connector_20bananas.field_wizard_cron_bananas_conector__interval_type
+msgid "Interval Unit"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_product_product__property_stock_inventory
+msgid "Inventory Location"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_product_product__valuation
+msgid "Inventory Valuation"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner__invoice_warn
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner_pricelist__invoice_warn
+msgid "Invoice"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,help:connector_20bananas.field_bananas_binding_res_partner__type
+#: model:ir.model.fields,help:connector_20bananas.field_bananas_binding_res_partner_pricelist__type
+msgid ""
+"Invoice & Delivery addresses are used in sales orders. Private addresses are only visible by "
+"authorized users."
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_sale_order__partner_invoice_id
+msgid "Invoice Address"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_sale_order__invoice_count
+msgid "Invoice Count"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_sale_order__invoice_status
+msgid "Invoice Status"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner__invoice_ids
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner_pricelist__invoice_ids
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_sale_order__invoice_ids
+msgid "Invoices"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_product_product__invoice_policy
+msgid "Invoicing Policy"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_product_product__message_is_follower
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner__message_is_follower
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner_pricelist__message_is_follower
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_sale_order__message_is_follower
+msgid "Is Follower"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_product_product__is_product_variant
+msgid "Is Product Variant"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner__is_company
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner_pricelist__is_company
+msgid "Is a Company"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_product_product__has_configurable_attributes
+msgid "Is a configurable product"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_sale_order__is_expired
+msgid "Is expired"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,help:connector_20bananas.field_product_packaging__to_20bananas_bulto_1
+msgid "Is the second unit in 20bananas"
+msgstr "Es la Segunda Unidad en 20Bananas"
+
+#. module: connector_20bananas
+#: model:ir.model.fields,help:connector_20bananas.field_product_packaging__to_20bananas_bulto_2
+msgid "Is the third unit in 20bananas"
+msgstr "Es la Tercera Unidad en 20Bananas"
+
+#. module: connector_20bananas
+#: model_terms:ir.ui.view,arch_db:connector_20bananas.product_pricelist_form_export_bananas
+msgid "Item Rate in Bananas"
+msgstr "Producto en Tarifa en 20Bananas"
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_sale_order__json_popover
+msgid "JSON data for the popover widget"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner__function
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner_pricelist__function
+msgid "Job Position"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner__journal_item_count
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner_pricelist__journal_item_count
+msgid "Journal Items"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,help:connector_20bananas.field_bananas_binding_product_product__property_account_income_id
+msgid "Keep this field empty to use the default value from the product category."
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,help:connector_20bananas.field_bananas_binding_product_product__property_account_expense_id
+msgid ""
+"Keep this field empty to use the default value from the product category. If anglo-saxon accounting "
+"with automated valuation method is configured, the expense account on the product category will be "
+"used."
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner__lang
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner_pricelist__lang
+msgid "Language"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_connections_bananas_cron__lastcall
+msgid "Last Execution Date"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_backend____last_update
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_product_blacklist____last_update
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_product_pricelist____last_update
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_product_pricelist_item____last_update
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_product_product____last_update
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_product_whitelist____last_update
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner____last_update
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner_pricelist____last_update
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_sale_order____last_update
+#: model:ir.model.fields,field_description:connector_20bananas.field_connections_bananas_cron____last_update
+#: model:ir.model.fields,field_description:connector_20bananas.field_delivery_days____last_update
+#: model:ir.model.fields,field_description:connector_20bananas.field_product_blacklist____last_update
+#: model:ir.model.fields,field_description:connector_20bananas.field_product_whitelist____last_update
+#: model:ir.model.fields,field_description:connector_20bananas.field_wizard_cron_bananas_conector____last_update
+msgid "Last Modified on"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_backend__write_uid
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_product_blacklist__write_uid
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_product_pricelist__write_uid
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_product_pricelist_item__write_uid
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_product_product__write_uid
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_product_whitelist__write_uid
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner__write_uid
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner_pricelist__write_uid
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_sale_order__write_uid
+#: model:ir.model.fields,field_description:connector_20bananas.field_connections_bananas_cron__write_uid
+#: model:ir.model.fields,field_description:connector_20bananas.field_delivery_days__write_uid
+#: model:ir.model.fields,field_description:connector_20bananas.field_product_blacklist__write_uid
+#: model:ir.model.fields,field_description:connector_20bananas.field_product_whitelist__write_uid
+#: model:ir.model.fields,field_description:connector_20bananas.field_wizard_cron_bananas_conector__write_uid
+msgid "Last Updated by"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_backend__write_date
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_product_blacklist__write_date
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_product_pricelist__write_date
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_product_pricelist_item__write_date
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_product_product__write_date
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_product_whitelist__write_date
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner__write_date
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner_pricelist__write_date
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_sale_order__write_date
+#: model:ir.model.fields,field_description:connector_20bananas.field_connections_bananas_cron__write_date
+#: model:ir.model.fields,field_description:connector_20bananas.field_delivery_days__write_date
+#: model:ir.model.fields,field_description:connector_20bananas.field_product_blacklist__write_date
+#: model:ir.model.fields,field_description:connector_20bananas.field_product_whitelist__write_date
+#: model:ir.model.fields,field_description:connector_20bananas.field_wizard_cron_bananas_conector__write_date
+msgid "Last Updated on"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,help:connector_20bananas.field_bananas_binding_res_partner__last_time_entries_checked
+#: model:ir.model.fields,help:connector_20bananas.field_bananas_binding_res_partner_pricelist__last_time_entries_checked
+msgid ""
+"Last time the invoices & payments matching was performed for this partner. It is set either if "
+"there's not at least an unreconciled debit and an unreconciled credit or if you click the \"Done\" "
+"button."
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner__last_time_entries_checked
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner_pricelist__last_time_entries_checked
+msgid "Latest Invoices & Payments Matching Date"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_connections_bananas_cron__link_field_id
+msgid "Link Field"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_product_product__location_id
+msgid "Location"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_connections_bananas_cron__sms_mass_keep_log
+msgid "Log as Note"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_product_product__message_main_attachment_id
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner__message_main_attachment_id
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner_pricelist__message_main_attachment_id
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_sale_order__message_main_attachment_id
+msgid "Main Attachment"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,help:connector_20bananas.field_bananas_binding_product_product__valuation
+msgid ""
+"Manual: The accounting entries to value the inventory are not posted automatically.\n"
+"        Automated: An accounting entry is automatically created to value the inventory when a "
+"product enters or leaves the company.\n"
+"        "
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,help:connector_20bananas.field_bananas_binding_product_product__service_type
+msgid ""
+"Manually set quantities on order: Invoice based on the manually entered quantity, without creating "
+"an analytic account.\n"
+"Timesheets on contract: Invoice based on the tracked hours on the related timesheet.\n"
+"Create a task and track hours: Create a task on the sales order validation and track the work hours."
+msgstr ""
+
+#. module: connector_20bananas
+#: model_terms:ir.ui.view,arch_db:connector_20bananas.view_order_marck_served_bananas_form
+msgid "Marck as Served Bananas"
+msgstr "Marcar pedido como Servido en 20Bananas"
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_product_pricelist_item__price_max_margin
+msgid "Max. Price Margin"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_sale_order__medium_id
+msgid "Medium"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_product_product__message_has_error
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner__message_has_error
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner_pricelist__message_has_error
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_sale_order__message_has_error
+msgid "Message Delivery error"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner__invoice_warn_msg
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner_pricelist__invoice_warn_msg
+msgid "Message for Invoice"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner__sale_warn_msg
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner_pricelist__sale_warn_msg
+msgid "Message for Sales Order"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_product_product__sale_line_warn_msg
+msgid "Message for Sales Order Line"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner__picking_warn_msg
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner_pricelist__picking_warn_msg
+msgid "Message for Stock Picking"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_product_product__message_ids
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner__message_ids
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner_pricelist__message_ids
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_sale_order__message_ids
+msgid "Messages"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_product_pricelist_item__price_min_margin
+msgid "Min. Price Margin"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_product_pricelist_item__min_quantity
+msgid "Min. Quantity"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_product_product__orderpoint_ids
+msgid "Minimum Stock Rules"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields.selection,name:connector_20bananas.selection__wizard_cron_bananas_conector__interval_type__minutes
+msgid "Minutes"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner__mobile
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner_pricelist__mobile
+msgid "Mobile"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_connections_bananas_cron__model_id
+#: model:ir.model.fields,field_description:connector_20bananas.field_wizard_cron_bananas_conector__model_id
+msgid "Model"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_connections_bananas_cron__model_name
+msgid "Model Name"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,help:connector_20bananas.field_connections_bananas_cron__crud_model_id
+msgid ""
+"Model for record creation / update. Set this field only to specify a different model than the base "
+"model."
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,help:connector_20bananas.field_connections_bananas_cron__model_id
+msgid "Model on which the server action runs."
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields.selection,name:connector_20bananas.selection__delivery_days__dayofweek__0
+msgid "Monday"
+msgstr "Lunes"
+
+#. module: connector_20bananas
+#: model:ir.model.fields.selection,name:connector_20bananas.selection__wizard_cron_bananas_conector__interval_type__months
+msgid "Months"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_product_product__my_activity_date_deadline
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner__my_activity_date_deadline
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner_pricelist__my_activity_date_deadline
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_sale_order__my_activity_date_deadline
+msgid "My Activity Deadline"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_product_pricelist_item__name
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_product_product__name
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner__name
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner_pricelist__name
+#: model:ir.model.fields,field_description:connector_20bananas.field_connections_bananas_cron__cron_name
+#: model:ir.model.fields,field_description:connector_20bananas.field_wizard_cron_bananas_conector__name
+msgid "Name"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,help:connector_20bananas.field_bananas_binding_sale_order__signed_by
+msgid "Name of the person that signed the SO."
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_product_product__nbr_moves_in
+msgid "Nbr Moves In"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_product_product__nbr_moves_out
+msgid "Nbr Moves Out"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_product_product__activity_date_deadline
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner__activity_date_deadline
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner_pricelist__activity_date_deadline
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_sale_order__activity_date_deadline
+msgid "Next Activity Deadline"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_product_product__activity_summary
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner__activity_summary
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner_pricelist__activity_summary
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_sale_order__activity_summary
+msgid "Next Activity Summary"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_product_product__activity_type_id
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner__activity_type_id
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner_pricelist__activity_type_id
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_sale_order__activity_type_id
+msgid "Next Activity Type"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_connections_bananas_cron__nextcall
+#: model:ir.model.fields,field_description:connector_20bananas.field_wizard_cron_bananas_conector__nextcall
+msgid "Next Execution Date"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,help:connector_20bananas.field_connections_bananas_cron__nextcall
+#: model:ir.model.fields,help:connector_20bananas.field_wizard_cron_bananas_conector__nextcall
+msgid "Next planned execution date for this job."
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields.selection,name:connector_20bananas.selection__product_pricelist__auto_export_selection__no
+#: model:ir.model.fields.selection,name:connector_20bananas.selection__product_product__auto_export_selection__no
+#: model:ir.model.fields.selection,name:connector_20bananas.selection__product_template__auto_export_selection__no
+#: model:ir.model.fields.selection,name:connector_20bananas.selection__res_partner__auto_export_selection__no
+msgid "No"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner__email_normalized
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner_pricelist__email_normalized
+msgid "Normalized Email"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_connections_bananas_cron__activity_note
+msgid "Note"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner__comment
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner_pricelist__comment
+msgid "Notes"
+msgstr ""
+
+#. module: connector_20bananas
+#: code:addons/connector_20bananas/components/exporter.py:0
+#, python-format
+msgid "Nothing to export"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_product_product__message_needaction_counter
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner__message_needaction_counter
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner_pricelist__message_needaction_counter
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_sale_order__message_needaction_counter
+msgid "Number of Actions"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_connections_bananas_cron__numbercall
+#: model:ir.model.fields,field_description:connector_20bananas.field_wizard_cron_bananas_conector__numbercall
+msgid "Number of Calls"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_product_product__message_has_error_counter
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner__message_has_error_counter
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner_pricelist__message_has_error_counter
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_sale_order__message_has_error_counter
+msgid "Number of errors"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,help:connector_20bananas.field_bananas_binding_product_product__nbr_moves_in
+msgid "Number of incoming stock moves in the past 12 months"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,help:connector_20bananas.field_bananas_binding_product_product__message_needaction_counter
+#: model:ir.model.fields,help:connector_20bananas.field_bananas_binding_res_partner__message_needaction_counter
+#: model:ir.model.fields,help:connector_20bananas.field_bananas_binding_res_partner_pricelist__message_needaction_counter
+#: model:ir.model.fields,help:connector_20bananas.field_bananas_binding_sale_order__message_needaction_counter
+msgid "Number of messages which requires an action"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,help:connector_20bananas.field_bananas_binding_product_product__message_has_error_counter
+#: model:ir.model.fields,help:connector_20bananas.field_bananas_binding_res_partner__message_has_error_counter
+#: model:ir.model.fields,help:connector_20bananas.field_bananas_binding_res_partner_pricelist__message_has_error_counter
+#: model:ir.model.fields,help:connector_20bananas.field_bananas_binding_sale_order__message_has_error_counter
+msgid "Number of messages with delivery error"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,help:connector_20bananas.field_bananas_binding_product_product__nbr_moves_out
+msgid "Number of outgoing stock moves in the past 12 months"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_product_product__pricelist_item_count
+msgid "Number of price rules"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,help:connector_20bananas.field_bananas_binding_product_product__message_unread_counter
+#: model:ir.model.fields,help:connector_20bananas.field_bananas_binding_res_partner__message_unread_counter
+#: model:ir.model.fields,help:connector_20bananas.field_bananas_binding_res_partner_pricelist__message_unread_counter
+#: model:ir.model.fields,help:connector_20bananas.field_bananas_binding_sale_order__message_unread_counter
+msgid "Number of unread messages"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_odoo__odoo_id
+msgid "Odoo binding"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_sale_order__require_payment
+msgid "Online Payment"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_sale_order__require_signature
+msgid "Online Signature"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_sale_order__sale_order_option_ids
+msgid "Optional Products Lines"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,help:connector_20bananas.field_connections_bananas_cron__help
+msgid ""
+"Optional help text for the users with a description of the target view, such as its usage and "
+"purpose."
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_sale_order__date_order
+msgid "Order Date"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_sale_order__order_line
+msgid "Order Lines"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_sale_order__name
+msgid "Order Reference"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,help:connector_20bananas.field_bananas_binding_product_product__invoice_policy
+msgid ""
+"Ordered Quantity: Invoice quantities ordered by the customer.\n"
+"Delivered Quantity: Invoice quantities delivered to the customer."
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_product_pricelist_item__base_pricelist_id
+msgid "Other Pricelist"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_product_product__outgoing_qty
+msgid "Outgoing"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner__parent_name
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner_pricelist__parent_name
+msgid "Parent name"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner__contract_ids
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner_pricelist__contract_ids
+msgid "Partner Contracts"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner__same_vat_partner_id
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner_pricelist__same_vat_partner_id
+msgid "Partner with same Tax ID"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner__debit_limit
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner_pricelist__debit_limit
+msgid "Payable Limit"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner__property_payment_method_id
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner_pricelist__property_payment_method_id
+msgid "Payment Method"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_sale_order__reference
+msgid "Payment Ref."
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_sale_order__payment_term_id
+msgid "Payment Terms"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner__payment_token_count
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner_pricelist__payment_token_count
+msgid "Payment Token Count"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner__payment_token_ids
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner_pricelist__payment_token_ids
+msgid "Payment Tokens"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_product_pricelist_item__percent_price
+msgid "Percentage Price"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner__phone
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner_pricelist__phone
+msgid "Phone"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner__phone_sanitized_blacklisted
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner_pricelist__phone_sanitized_blacklisted
+msgid "Phone Blacklisted"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner__phone_mobile_search
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner_pricelist__phone_mobile_search
+msgid "Phone/Mobile"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_sale_order__access_url
+msgid "Portal Access URL"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,help:connector_20bananas.field_bananas_binding_res_partner__property_payment_method_id
+#: model:ir.model.fields,help:connector_20bananas.field_bananas_binding_res_partner_pricelist__property_payment_method_id
+msgid ""
+"Preferred payment method when paying this vendor. This is used to filter vendor bills by preferred "
+"payment method to register payments in mass. Use cases: create bank files for batch wires, check "
+"runs."
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,help:connector_20bananas.field_connections_bananas_cron__lastcall
+msgid ""
+"Previous time the cron ran successfully, provided to the job through the context on the `lastcall` "
+"key"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_product_pricelist_item__price
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_product_product__price
+msgid "Price"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_product_pricelist_item__price_discount
+msgid "Price Discount"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_product_pricelist_item__price_round
+msgid "Price Rounding"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_product_pricelist_item__price_surcharge
+msgid "Price Surcharge"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,help:connector_20bananas.field_bananas_binding_product_product__list_price
+msgid "Price at which the product is sold to customers."
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model,name:connector_20bananas.model_product_pricelist
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_product_pricelist_item__pricelist_id
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_product_product__pricelist_id
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner__property_product_pricelist
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner_pricelist__property_product_pricelist
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_sale_order__pricelist_id
+msgid "Pricelist"
+msgstr "Tarifa"
+
+#. module: connector_20bananas
+#: model:ir.model.fields,help:connector_20bananas.field_bananas_binding_product_pricelist_item__applied_on
+msgid "Pricelist Item applicable on selected option"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_product_pricelist__name
+msgid "Pricelist Name"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model,name:connector_20bananas.model_product_pricelist_item
+msgid "Pricelist Rule"
+msgstr "Regla de Tarifa"
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_product_pricelist__item_ids
+msgid "Pricelist Rules"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_connections_bananas_cron__priority
+#: model:ir.model.fields,field_description:connector_20bananas.field_wizard_cron_bananas_conector__priority
+msgid "Priority"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_sale_order__procurement_group_id
+msgid "Procurement Group"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model,name:connector_20bananas.model_product_product
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_product_pricelist_item__product_tmpl_id
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_product_product__odoo_id
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_product_product__product_variant_id
+msgid "Product"
+msgstr "Producto"
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_product_product__attribute_line_ids
+msgid "Product Attributes"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model,name:connector_20bananas.model_product_blacklist
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_product_blacklist__odoo_id
+msgid "Product Blacklist"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_product_pricelist_item__categ_id
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_product_product__categ_id
+msgid "Product Category"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_product_product__packaging_ids
+msgid "Product Packages"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model,name:connector_20bananas.model_product_packaging
+msgid "Product Packaging"
+msgstr "Empaquetado del producto"
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_product_pricelist__odoo_id
+msgid "Product Pricelist"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_product_pricelist_item__odoo_id
+msgid "Product Pricelist Item"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model,name:connector_20bananas.model_product_template
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_product_product__product_tmpl_id
+msgid "Product Template"
+msgstr "Plantilla de producto"
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_product_product__product_tooltip
+msgid "Product Tooltip"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_product_product__detailed_type
+msgid "Product Type"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_product_pricelist_item__product_id
+msgid "Product Variant"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model,name:connector_20bananas.model_product_whitelist
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_product_whitelist__odoo_id
+msgid "Product Whitelist"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_product_product__property_stock_production
+msgid "Production Location"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_product_product__product_variant_ids
+msgid "Products"
+msgstr ""
+
+#. module: connector_20bananas
+#: model_terms:ir.ui.view,arch_db:connector_20bananas.product_product_form_export_bananas
+#: model_terms:ir.ui.view,arch_db:connector_20bananas.product_template_form_export_bananas
+msgid "Products in Bananas"
+msgstr "Producto en 20Bananas"
+
+#. module: connector_20bananas
+#: model:ir.model.fields,help:connector_20bananas.field_connections_bananas_cron__link_field_id
+msgid ""
+"Provide the field used to link the newly created record on the record used by the server action."
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_product_product__description_purchase
+msgid "Purchase Description"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_product_product__uom_po_id
+msgid "Purchase UoM"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_product_product__putaway_rule_ids
+msgid "Putaway Rules"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_connections_bananas_cron__code
+#: model_terms:ir.ui.view,arch_db:connector_20bananas.conections_bananas_cron_views_form
+msgid "Python Code"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_product_product__qty_available
+msgid "Quantity On Hand"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_product_product__quantity_svl
+msgid "Quantity Svl"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,help:connector_20bananas.field_bananas_binding_product_product__incoming_qty
+msgid ""
+"Quantity of planned incoming products.\n"
+"In a context with a single Stock Location, this includes goods arriving to this Location, or any of "
+"its children.\n"
+"In a context with a single Warehouse, this includes goods arriving to the Stock Location of this "
+"Warehouse, or any of its children.\n"
+"Otherwise, this includes goods arriving to any Stock Location with 'internal' type."
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,help:connector_20bananas.field_bananas_binding_product_product__outgoing_qty
+msgid ""
+"Quantity of planned outgoing products.\n"
+"In a context with a single Stock Location, this includes goods leaving this Location, or any of its "
+"children.\n"
+"In a context with a single Warehouse, this includes goods leaving the Stock Location of this "
+"Warehouse, or any of its children.\n"
+"Otherwise, this includes goods leaving any Stock Location with 'internal' type."
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_product_product__visible_qty_configurator
+msgid "Quantity visible in configurator"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_sale_order__sale_order_template_id
+msgid "Quotation Template"
+msgstr ""
+
+#. module: connector_20bananas
+#: model_terms:ir.ui.view,arch_db:connector_20bananas.product_pricelist_form_export_bananas
+msgid "Rate in Bananas"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_product_product__expense_policy
+msgid "Re-Invoice Expenses"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_product_product__visible_expense_policy
+msgid "Re-Invoice Policy visible"
+msgstr ""
+
+#. module: connector_20bananas
+#: code:addons/connector_20bananas/components/exporter.py:0
+#, python-format
+msgid "Record does not exists in Navision"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_product_product__code
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner__ref
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner_pricelist__ref
+msgid "Reference"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,help:connector_20bananas.field_bananas_binding_sale_order__origin
+msgid "Reference of the document that generated this sales order request."
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner__parent_id
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner_pricelist__parent_id
+msgid "Related Company"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_product_product__reordering_max_qty
+msgid "Reordering Max Qty"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_product_product__reordering_min_qty
+msgid "Reordering Min Qty"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_product_product__nbr_reordering_rules
+msgid "Reordering Rules"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_wizard_cron_bananas_conector__interval_num
+msgid "Repeat Every"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_connections_bananas_cron__doall
+#: model:ir.model.fields,field_description:connector_20bananas.field_wizard_cron_bananas_conector__doall
+msgid "Repeat Missed"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,help:connector_20bananas.field_connections_bananas_cron__interval_number
+msgid "Repeat every x."
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,help:connector_20bananas.field_bananas_binding_sale_order__require_signature
+msgid "Request a online signature to the customer in order to confirm orders automatically."
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,help:connector_20bananas.field_bananas_binding_sale_order__require_payment
+msgid "Request an online payment to the customer in order to confirm orders automatically."
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner__odoo_id
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner_pricelist__odoo_id
+msgid "Res Partner"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_product_product__responsible_id
+#: model:ir.model.fields,field_description:connector_20bananas.field_connections_bananas_cron__activity_user_id
+msgid "Responsible"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_product_product__activity_user_id
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner__activity_user_id
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner_pricelist__activity_user_id
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_sale_order__activity_user_id
+msgid "Responsible User"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_product_product__route_ids
+msgid "Routes"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_product_product__has_available_route_ids
+msgid "Routes can be selected on this product"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_product_pricelist_item__rule_tip
+msgid "Rule Tip"
+msgstr ""
+
+#. module: connector_20bananas
+#: model_terms:ir.ui.view,arch_db:connector_20bananas.conections_bananas_cron_views_form
+msgid "Run Manually"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_product_product__message_has_sms_error
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner__message_has_sms_error
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner_pricelist__message_has_sms_error
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_sale_order__message_has_sms_error
+msgid "SMS Delivery error"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_connections_bananas_cron__sms_template_id
+msgid "SMS Template"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_sale_order__odoo_id
+msgid "Sale Order"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner__sale_order_count
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner_pricelist__sale_order_count
+msgid "Sale Order Count"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_product_product__description_sale
+msgid "Sales Description"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model,name:connector_20bananas.model_sale_order
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner__sale_order_ids
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner_pricelist__sale_order_ids
+msgid "Sales Order"
+msgstr "Pedido de venta"
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_product_product__sale_line_warn
+msgid "Sales Order Line"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_product_product__list_price
+msgid "Sales Price"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner__team_id
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner_pricelist__team_id
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_sale_order__team_id
+msgid "Sales Team"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner__sale_warn
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner_pricelist__sale_warn
+msgid "Sales Warnings"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner__user_id
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner_pricelist__user_id
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_sale_order__user_id
+msgid "Salesperson"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_product_product__lst_price
+msgid "Sales Price"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner__phone_sanitized
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner_pricelist__phone_sanitized
+msgid "Sanitized Number"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields.selection,name:connector_20bananas.selection__delivery_days__dayofweek__5
+msgid "Saturday"
+msgstr "Sábado"
+
+#. module: connector_20bananas
+#: model_terms:ir.ui.view,arch_db:connector_20bananas.create_cron_bananas_backend_form
+msgid "Save"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_connections_bananas_cron__user_id
+msgid "Scheduler User"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_sale_order__access_token
+msgid "Security Token"
+msgstr ""
+
+#. module: connector_20bananas
+#: code:addons/connector_20bananas/models/res_partner/exporter.py:0
+#, python-format
+msgid "Select a comercial of 20 bananas before"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,help:connector_20bananas.field_bananas_binding_product_product__categ_id
+msgid "Select category for the current product"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,help:connector_20bananas.field_bananas_binding_product_product__sale_line_warn
+#: model:ir.model.fields,help:connector_20bananas.field_bananas_binding_res_partner__invoice_warn
+#: model:ir.model.fields,help:connector_20bananas.field_bananas_binding_res_partner__picking_warn
+#: model:ir.model.fields,help:connector_20bananas.field_bananas_binding_res_partner__sale_warn
+#: model:ir.model.fields,help:connector_20bananas.field_bananas_binding_res_partner_pricelist__invoice_warn
+#: model:ir.model.fields,help:connector_20bananas.field_bananas_binding_res_partner_pricelist__picking_warn
+#: model:ir.model.fields,help:connector_20bananas.field_bananas_binding_res_partner_pricelist__sale_warn
+msgid ""
+"Selecting the \"Warning\" option will notify user with the message, Selecting \"Blocking Message\" "
+"will throw an exception with the message and block the flow. The Message has to be written in the "
+"next field."
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner__self
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner_pricelist__self
+msgid "Self"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_product_pricelist__sequence
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_product_product__sequence
+#: model:ir.model.fields,field_description:connector_20bananas.field_connections_bananas_cron__sequence
+msgid "Sequence"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_connections_bananas_cron__ir_actions_server_id
+msgid "Server action"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,help:connector_20bananas.field_bananas_binding_product_pricelist_item__price_round
+msgid ""
+"Sets the price so that it is a multiple of this value.\n"
+"Rounding is applied after the discount and before the surcharge.\n"
+"To have prices that end in 9.99, set rounding 10, surcharge -0.01"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,help:connector_20bananas.field_connections_bananas_cron__binding_model_id
+msgid "Setting a value makes this action available in the sidebar for the given model."
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner__partner_share
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner_pricelist__partner_share
+msgid "Share Partner"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_sale_order__picking_policy
+msgid "Shipping Policy"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_product_product__show_forecasted_qty_status_button
+msgid "Show Forecasted Qty Status Button"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_product_product__show_on_hand_qty_status_button
+msgid "Show On Hand Qty Status Button"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_sale_order__signature
+msgid "Signature"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,help:connector_20bananas.field_bananas_binding_sale_order__signature
+msgid "Signature received through the portal."
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_sale_order__signed_by
+msgid "Signed By"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_sale_order__signed_on
+msgid "Signed On"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner__signup_expiration
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner_pricelist__signup_expiration
+msgid "Signup Expiration"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner__signup_token
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner_pricelist__signup_token
+msgid "Signup Token"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner__signup_type
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner_pricelist__signup_type
+msgid "Signup Token Type"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner__signup_valid
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner_pricelist__signup_valid
+msgid "Signup Token is Valid"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner__signup_url
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner_pricelist__signup_url
+msgid "Signup URL"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_product_product__sales_count
+msgid "Sold"
+msgstr ""
+
+#. module: connector_20bananas
+#: code:addons/connector_20bananas/models/product_product/common.py:0
+#, python-format
+msgid "Solo puede haber un paquete como unidad de bulto 1 para ser exportado a 20bananas"
+msgstr ""
+
+#. module: connector_20bananas
+#: code:addons/connector_20bananas/models/product_product/common.py:0
+#, python-format
+msgid "Solo puede haber un paquete como unidad de bulto 2 para ser exportado a 20bananas"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_sale_order__source_id
+msgid "Source"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_sale_order__origin
+msgid "Source Document"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,help:connector_20bananas.field_bananas_binding_product_pricelist_item__categ_id
+msgid ""
+"Specify a product category if this rule only applies to products belonging to this category or its "
+"children categories. Keep empty otherwise."
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,help:connector_20bananas.field_bananas_binding_product_pricelist_item__product_id
+msgid "Specify a product if this rule only applies to one product. Keep empty otherwise."
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,help:connector_20bananas.field_bananas_binding_product_pricelist_item__product_tmpl_id
+msgid "Specify a template if this rule only applies to one product template. Keep empty otherwise."
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,help:connector_20bananas.field_connections_bananas_cron__doall
+#: model:ir.model.fields,help:connector_20bananas.field_wizard_cron_bananas_conector__doall
+msgid "Specify if missed occurrences should be executed when the server restarts."
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,help:connector_20bananas.field_bananas_binding_product_pricelist_item__price_surcharge
+msgid ""
+"Specify the fixed amount to add or substract(if negative) to the amount calculated with the "
+"discount."
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,help:connector_20bananas.field_bananas_binding_product_pricelist_item__price_max_margin
+msgid "Specify the maximum amount of margin over the base price."
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,help:connector_20bananas.field_bananas_binding_product_pricelist_item__price_min_margin
+msgid "Specify the minimum amount of margin over the base price."
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,help:connector_20bananas.field_bananas_binding_product_product__cost_method
+msgid ""
+"Standard Price: The products are valued at their standard cost defined on the product.\n"
+"        Average Cost (AVCO): The products are valued at weighted average cost.\n"
+"        First In First Out (FIFO): The products are valued supposing those that enter the company "
+"first will also leave it first.\n"
+"        "
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_product_pricelist_item__date_start
+msgid "Start Date"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,help:connector_20bananas.field_bananas_binding_product_pricelist_item__date_start
+msgid ""
+"Starting datetime for the pricelist item validation\n"
+"The displayed value depends on the timezone set in your preferences."
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner__state_id
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner_pricelist__state_id
+msgid "State"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_sale_order__state
+msgid "Status"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,help:connector_20bananas.field_bananas_binding_product_product__activity_state
+#: model:ir.model.fields,help:connector_20bananas.field_bananas_binding_res_partner__activity_state
+#: model:ir.model.fields,help:connector_20bananas.field_bananas_binding_res_partner_pricelist__activity_state
+#: model:ir.model.fields,help:connector_20bananas.field_bananas_binding_sale_order__activity_state
+msgid ""
+"Status based on activities\n"
+"Overdue: Due date is already passed\n"
+"Today: Activity date is today\n"
+"Planned: Future activities."
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_product_product__stock_move_ids
+msgid "Stock Move"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner__picking_warn
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner_pricelist__picking_warn
+msgid "Stock Picking"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_product_product__stock_quant_ids
+msgid "Stock Quant"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_product_product__stock_valuation_layer_ids
+msgid "Stock Valuation Layer"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_product_product__storage_category_capacity_ids
+msgid "Storage Category Capacity"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner__street
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner_pricelist__street
+msgid "Street"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner__street2
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner_pricelist__street2
+msgid "Street2"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_connections_bananas_cron__activity_summary
+msgid "Summary"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields.selection,name:connector_20bananas.selection__delivery_days__dayofweek__6
+msgid "Sunday"
+msgstr "Domingo"
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner__supplier_rank
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner_pricelist__supplier_rank
+msgid "Supplier Rank"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding__sync_date
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_odoo__sync_date
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_product_blacklist__sync_date
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_product_pricelist__sync_date
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_product_pricelist_item__sync_date
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_product_product__sync_date
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_product_whitelist__sync_date
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner__sync_date
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner_pricelist__sync_date
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_sale_order__sync_date
+msgid "Sync Date"
+msgstr "Fecha Sincronización"
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_product_product__tag_ids
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner__category_id
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner_pricelist__category_id
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_sale_order__tag_ids
+msgid "Tags"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,help:connector_20bananas.field_bananas_binding_product_product__account_tag_ids
+msgid "Tags to be set on the base and tax journal items created for this product."
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_connections_bananas_cron__crud_model_id
+msgid "Target Model"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_connections_bananas_cron__crud_model_name
+msgid "Target Model Name"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_sale_order__tax_country_id
+msgid "Tax Country"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_product_product__tax_string
+msgid "Tax String"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_sale_order__tax_totals_json
+msgid "Tax Totals Json"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_sale_order__amount_tax
+msgid "Taxes"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,help:connector_20bananas.field_bananas_binding_sale_order__show_update_pricelist
+msgid ""
+"Technical Field, True if the pricelist was changed;\n"
+" this will then display a recomputation button"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,help:connector_20bananas.field_bananas_binding_product_product__valid_product_template_attribute_line_ids
+msgid "Technical compute"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,help:connector_20bananas.field_bananas_binding_sale_order__tax_country_id
+msgid ""
+"Technical field to filter the available taxes depending on the fiscal country and fiscal position."
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,help:connector_20bananas.field_bananas_binding_product_product__pricelist_id
+msgid "Technical field. Used for searching on pricelists, not stored in database."
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,help:connector_20bananas.field_connections_bananas_cron__activity_user_field_name
+msgid "Technical name of the user on the record"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,help:connector_20bananas.field_bananas_binding_product_product__stock_move_ids
+#: model:ir.model.fields,help:connector_20bananas.field_bananas_binding_product_product__stock_quant_ids
+msgid "Technical: used to compute quantities."
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_sale_order__terms_type
+msgid "Terms & Conditions format"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_sale_order__note
+msgid "Terms and conditions"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,help:connector_20bananas.field_bananas_backend__api_key
+msgid "The API KEY that you obtain for make requets to api."
+msgstr "La API KEY que has obtenido para realizar las peticiones."
+
+#. module: connector_20bananas
+#: code:addons/connector_20bananas/models/res_partner/exporter.py:0
+#, python-format
+msgid "The Client is no exported to 20bananas, so we can't add the client to the rate"
+msgstr "EL cliente no ha sido sincronizado a 20Bananas, por lo tanto no podemos añadirlo en la tarifa"
+
+#. module: connector_20bananas
+#: model:ir.model.fields,help:connector_20bananas.field_bananas_binding_res_partner__country_code
+#: model:ir.model.fields,help:connector_20bananas.field_bananas_binding_res_partner_pricelist__country_code
+msgid ""
+"The ISO country code in two chars. \n"
+"You can use this field for quick search."
+msgstr ""
+
+#. module: connector_20bananas
+#: code:addons/connector_20bananas/models/product_pricelist/exporter.py:0
+#, python-format
+msgid "The Product is no exported to 20bananas, so we can't add the product item to the rate"
+msgstr ""
+"El producto no ha sido sincronizado a 20Bananas, por lo tanto no podemos añadirlo en la tarifa"
+
+#. module: connector_20bananas
+#: code:addons/connector_20bananas/models/res_partner/exporter.py:0
+#, python-format
+msgid "The Rate is no exported to 20bananas, so we can't add the client to the rate"
+msgstr "La tarifa no ha sido sincronizada a 20Bananas, por lo tanto no podemos agregársela al cliente"
+
+#. module: connector_20bananas
+#: code:addons/connector_20bananas/models/product_pricelist/exporter.py:0
+#, python-format
+msgid "The Rate is no exported to 20bananas, so we can't add the product item to the rate"
+msgstr "La tarifa no ha sido sincronizada a 20Bananas, por lo tanto no podemos agregarle el producto"
+
+#. module: connector_20bananas
+#: model:ir.model.fields,help:connector_20bananas.field_bananas_binding_res_partner__vat
+#: model:ir.model.fields,help:connector_20bananas.field_bananas_binding_res_partner_pricelist__vat
+msgid ""
+"The Tax Identification Number. Complete it if the contact is subjected to government taxes. Used in "
+"some legal statements."
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,help:connector_20bananas.field_bananas_backend__url
+msgid "The URL base where the service is."
+msgstr "La URL Base donde se encuentra el servicio."
+
+#. module: connector_20bananas
+#: model:ir.model.fields,help:connector_20bananas.field_bananas_binding_sale_order__analytic_account_id
+msgid "The analytic account related to a sales order."
+msgstr ""
+
+#. module: connector_20bananas
+#: code:addons/connector_20bananas/models/sale_order/importer.py:0
+#, python-format
+msgid "The client  hasn't been importer, pleas import before continue"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,help:connector_20bananas.field_bananas_binding_res_partner__property_account_position_id
+#: model:ir.model.fields,help:connector_20bananas.field_bananas_binding_res_partner_pricelist__property_account_position_id
+msgid "The fiscal position determines the taxes/accounts used for this contact."
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,help:connector_20bananas.field_bananas_backend__date_of_order_sale
+msgid "The format is YYYY-mm-dd"
+msgstr "El formato de la Fecha es YYYY-mm-dd"
+
+#. module: connector_20bananas
+#: model:ir.model.fields,help:connector_20bananas.field_bananas_binding_res_partner__user_id
+#: model:ir.model.fields,help:connector_20bananas.field_bananas_binding_res_partner_pricelist__user_id
+msgid "The internal user in charge of this contact."
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,help:connector_20bananas.field_bananas_binding_res_partner__has_unreconciled_entries
+#: model:ir.model.fields,help:connector_20bananas.field_bananas_binding_res_partner_pricelist__has_unreconciled_entries
+msgid ""
+"The partner has at least one unreconciled debit and credit since last time the invoices & payments "
+"matching was performed."
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,help:connector_20bananas.field_bananas_binding_sale_order__reference
+msgid "The payment communication of this sale order."
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,help:connector_20bananas.field_connections_bananas_cron__priority
+#: model:ir.model.fields,help:connector_20bananas.field_wizard_cron_bananas_conector__priority
+msgid "The priority of the job, as an integer: 0 means higher priority, 10 means lower priority."
+msgstr ""
+
+#. module: connector_20bananas
+#: code:addons/connector_20bananas/models/sale_order/importer.py:0
+#, python-format
+msgid "The product hasn't been importer, pleas import before continue"
+msgstr "El producto no ha sido importado, impórtelo antes de continuar"
+
+#. module: connector_20bananas
+#: code:addons/connector_20bananas/models/sale_order/importer.py:0
+#, python-format
+msgid "The product hasn't been importer, please before import the order, import all products."
+msgstr "El producto no ha sido importado, impórtelo antes de continuar."
+
+#. module: connector_20bananas
+#: model:ir.model.fields,help:connector_20bananas.field_bananas_binding_sale_order__currency_rate
+msgid "The rate of the currency to the currency of rate 1 applicable at the date of the order"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,help:connector_20bananas.field_bananas_binding_product_product__lst_price
+msgid ""
+"The sale price is managed from the product template. Click on the 'Configure Variants' button to "
+"set the extra attribute prices."
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,help:connector_20bananas.field_bananas_binding_res_partner__property_stock_customer
+#: model:ir.model.fields,help:connector_20bananas.field_bananas_binding_res_partner_pricelist__property_stock_customer
+msgid "The stock location used as destination when sending goods to this contact."
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,help:connector_20bananas.field_bananas_binding_res_partner__property_stock_supplier
+#: model:ir.model.fields,help:connector_20bananas.field_bananas_binding_res_partner_pricelist__property_stock_supplier
+msgid "The stock location used as source when receiving goods from this contact."
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,help:connector_20bananas.field_bananas_binding_res_partner__property_account_payable_id
+#: model:ir.model.fields,help:connector_20bananas.field_bananas_binding_res_partner_pricelist__property_account_payable_id
+msgid ""
+"This account will be used instead of the default one as the payable account for the current partner"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,help:connector_20bananas.field_bananas_binding_res_partner__property_account_receivable_id
+#: model:ir.model.fields,help:connector_20bananas.field_bananas_binding_res_partner_pricelist__property_account_receivable_id
+msgid ""
+"This account will be used instead of the default one as the receivable account for the current "
+"partner"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,help:connector_20bananas.field_bananas_binding_res_partner__email_normalized
+#: model:ir.model.fields,help:connector_20bananas.field_bananas_binding_res_partner_pricelist__email_normalized
+msgid ""
+"This field is used to search on email address as the primary email field can contain more than "
+"strictly an email address."
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,help:connector_20bananas.field_bananas_binding_sale_order__campaign_id
+msgid ""
+"This is a name that helps you keep track of your different campaign efforts, e.g. Fall_Drive, "
+"Christmas_Special"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,help:connector_20bananas.field_bananas_binding_sale_order__commitment_date
+msgid ""
+"This is the delivery date promised to the customer. If set, the delivery order will be scheduled "
+"based on this date rather than product lead times."
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,help:connector_20bananas.field_bananas_binding_sale_order__medium_id
+msgid "This is the method of delivery, e.g. Postcard, Email, or Banner Ad"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,help:connector_20bananas.field_bananas_binding_sale_order__source_id
+msgid "This is the source of the link, e.g. Search Engine, another domain, or name of email list"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,help:connector_20bananas.field_bananas_binding_product_product__price_extra
+msgid "This is the sum of the extra price of all attributes"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,help:connector_20bananas.field_bananas_binding_res_partner__property_supplier_payment_term_id
+#: model:ir.model.fields,help:connector_20bananas.field_bananas_binding_res_partner_pricelist__property_supplier_payment_term_id
+msgid "This payment term will be used instead of the default one for purchase orders and vendor bills"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,help:connector_20bananas.field_bananas_binding_res_partner__property_payment_term_id
+#: model:ir.model.fields,help:connector_20bananas.field_bananas_binding_res_partner_pricelist__property_payment_term_id
+msgid ""
+"This payment term will be used instead of the default one for sales orders and customer invoices"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,help:connector_20bananas.field_bananas_binding_res_partner__property_product_pricelist
+#: model:ir.model.fields,help:connector_20bananas.field_bananas_binding_res_partner_pricelist__property_product_pricelist
+msgid "This pricelist will be used, instead of the default one, for sales to the current partner"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,help:connector_20bananas.field_bananas_binding_product_product__property_stock_production
+msgid ""
+"This stock location will be used, instead of the default one, as the source location for stock "
+"moves generated by manufacturing orders."
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,help:connector_20bananas.field_bananas_binding_product_product__property_stock_inventory
+msgid ""
+"This stock location will be used, instead of the default one, as the source location for stock "
+"moves generated when you do an inventory."
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,help:connector_20bananas.field_bananas_binding_product_product__responsible_id
+msgid ""
+"This user will be responsible of the next activities related to logistic operations for this "
+"product."
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields.selection,name:connector_20bananas.selection__delivery_days__dayofweek__3
+msgid "Thursday"
+msgstr "Jueves"
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner__tz
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner_pricelist__tz
+msgid "Timezone"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner__tz_offset
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner_pricelist__tz_offset
+msgid "Timezone offset"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner__title
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner_pricelist__title
+msgid "Title"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_sale_order__amount_total
+msgid "Total"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner__total_invoiced
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner_pricelist__total_invoiced
+msgid "Total Invoiced"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner__debit
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner_pricelist__debit
+msgid "Total Payable"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner__credit
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner_pricelist__credit
+msgid "Total Receivable"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,help:connector_20bananas.field_bananas_binding_res_partner__credit
+#: model:ir.model.fields,help:connector_20bananas.field_bananas_binding_res_partner_pricelist__credit
+msgid "Total amount this customer owes you."
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,help:connector_20bananas.field_bananas_binding_res_partner__debit
+#: model:ir.model.fields,help:connector_20bananas.field_bananas_binding_res_partner_pricelist__debit
+msgid "Total amount you have to pay to this vendor."
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_product_product__service_type
+msgid "Track Service"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_product_product__tracking
+msgid "Tracking"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_sale_order__transaction_ids
+msgid "Transactions"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_sale_order__picking_ids
+msgid "Transfers"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields.selection,name:connector_20bananas.selection__delivery_days__dayofweek__1
+msgid "Tuesday"
+msgstr "Martes"
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_product_product__type
+msgid "Type"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_wizard_cron_bananas_conector__type_import
+msgid "Type Import"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_sale_order__type_name
+msgid "Type Name"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,help:connector_20bananas.field_connections_bananas_cron__state
+msgid ""
+"Type of server action. The following values are available:\n"
+"- 'Execute Python Code': a block of python code that will be executed\n"
+"- 'Create': create a new record with new values\n"
+"- 'Update a Record': update the values of a record\n"
+"- 'Execute several actions': define an action that triggers several other server actions\n"
+"- 'Send Email': automatically send an email (Discuss)\n"
+"- 'Add Followers': add followers to a record (Discuss)\n"
+"- 'Create Next Activity': create an activity (Discuss)"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,help:connector_20bananas.field_bananas_binding_product_product__activity_exception_decoration
+#: model:ir.model.fields,help:connector_20bananas.field_bananas_binding_res_partner__activity_exception_decoration
+#: model:ir.model.fields,help:connector_20bananas.field_bananas_binding_res_partner_pricelist__activity_exception_decoration
+#: model:ir.model.fields,help:connector_20bananas.field_bananas_binding_sale_order__activity_exception_decoration
+msgid "Type of the exception activity on record."
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_product_packaging__to_20bananas_bulto_1
+msgid "Unidades Bulto 1"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_product_packaging__to_20bananas_bulto_2
+msgid "Unidades Bulto 2"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_product_product__uom_id
+msgid "Unit of Measure"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_product_product__uom_name
+msgid "Unit of Measure Name"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_product_product__message_unread
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner__message_unread
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner_pricelist__message_unread
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_sale_order__message_unread
+msgid "Unread Messages"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_product_product__message_unread_counter
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner__message_unread_counter
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner_pricelist__message_unread_counter
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_sale_order__message_unread_counter
+msgid "Unread Messages Counter"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_sale_order__amount_untaxed
+msgid "Untaxed Amount"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_connections_bananas_cron__usage
+msgid "Usage"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,help:connector_20bananas.field_connections_bananas_cron__activity_user_type
+msgid ""
+"Use 'Specific User' to always assign the same user on the next activity. Use 'Generic User From "
+"Record' to specify the field name of the user to choose on the record."
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,help:connector_20bananas.field_bananas_binding_res_partner__barcode
+#: model:ir.model.fields,help:connector_20bananas.field_bananas_binding_res_partner_pricelist__barcode
+msgid "Use a barcode to identify this contact."
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_connections_bananas_cron__activity_user_field_name
+msgid "User field name"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner__user_ids
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner_pricelist__user_ids
+msgid "Users"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,help:connector_20bananas.field_bananas_binding_res_partner__currency_id
+#: model:ir.model.fields,help:connector_20bananas.field_bananas_binding_res_partner_pricelist__currency_id
+msgid "Utility field to express amount currency"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner__vat
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner_pricelist__vat
+msgid "VAT/Tax ID"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_product_product__valid_product_template_attribute_line_ids
+msgid "Valid Product Attribute Lines"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_connections_bananas_cron__fields_lines
+msgid "Value Mapping"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_product_product__value_svl
+msgid "Value Svl"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_product_product__image_variant_1920
+msgid "Variant Image"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_product_product__image_variant_1024
+msgid "Variant Image 1024"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_product_product__image_variant_128
+msgid "Variant Image 128"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_product_product__image_variant_256
+msgid "Variant Image 256"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_product_product__image_variant_512
+msgid "Variant Image 512"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_product_product__price_extra
+msgid "Variant Price Extra"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_product_product__variant_seller_ids
+msgid "Variant Seller"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_product_product__product_template_variant_value_ids
+msgid "Variant Values"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner__property_stock_supplier
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner_pricelist__property_stock_supplier
+msgid "Vendor Location"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner__property_supplier_payment_term_id
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner_pricelist__property_supplier_payment_term_id
+msgid "Vendor Payment Terms"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_product_product__supplier_taxes_id
+msgid "Vendor Taxes"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_product_product__seller_ids
+msgid "Vendors"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_product_product__volume
+msgid "Volume"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_product_product__volume_uom_name
+msgid "Volume unit of measure label"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_product_product__warehouse_id
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_sale_order__warehouse_id
+msgid "Warehouse"
+msgstr ""
+
+#. module: connector_20bananas
+#: code:addons/connector_20bananas/models/sale_order/importer.py:0
+#, python-format
+msgid ""
+"We can't create the order line because the unit for the line doesn't exit or threre aren't a "
+"packaging wyhs these name, pleas befere retray it, create the %s unit or the package"
+msgstr ""
+
+#. module: connector_20bananas
+#: code:addons/connector_20bananas/components/backend_adapter.py:0
+#, python-format
+msgid ""
+"We have get an error has a response in the request to the api, these is the error ('%s'), please "
+"check it before retry it"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner__website
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner_pricelist__website
+msgid "Website Link"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_product_product__website_message_ids
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner__website_message_ids
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner_pricelist__website_message_ids
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_sale_order__website_message_ids
+msgid "Website Messages"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,help:connector_20bananas.field_bananas_binding_product_product__website_message_ids
+#: model:ir.model.fields,help:connector_20bananas.field_bananas_binding_res_partner__website_message_ids
+#: model:ir.model.fields,help:connector_20bananas.field_bananas_binding_res_partner_pricelist__website_message_ids
+#: model:ir.model.fields,help:connector_20bananas.field_bananas_binding_sale_order__website_message_ids
+msgid "Website communication history"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields.selection,name:connector_20bananas.selection__delivery_days__dayofweek__2
+msgid "Wednesday"
+msgstr "MIércoles"
+
+#. module: connector_20bananas
+#: model:ir.model.fields.selection,name:connector_20bananas.selection__wizard_cron_bananas_conector__interval_type__weeks
+msgid "Weeks"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_product_product__weight
+msgid "Weight"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_product_product__weight_uom_name
+msgid "Weight unit of measure label"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,help:connector_20bananas.field_connections_bananas_cron__sequence
+msgid ""
+"When dealing with multiple actions, the execution order is based on the sequence. Low number means "
+"high priority."
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,help:connector_20bananas.field_bananas_binding_res_partner__tz
+#: model:ir.model.fields,help:connector_20bananas.field_bananas_binding_res_partner_pricelist__tz
+msgid ""
+"When printing documents and exporting/importing data, time values are computed according to this "
+"timezone.\n"
+"If the timezone is not set, UTC (Coordinated Universal Time) is used.\n"
+"Anywhere else, time values are computed according to the time offset of your web client."
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,help:connector_20bananas.field_connections_bananas_cron__code
+msgid ""
+"Write Python code that the action will execute. Some variables are available for use; help about "
+"python expression is given in the help tab."
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields.selection,name:connector_20bananas.selection__product_pricelist__auto_export_selection__yes
+#: model:ir.model.fields.selection,name:connector_20bananas.selection__product_product__auto_export_selection__yes
+#: model:ir.model.fields.selection,name:connector_20bananas.selection__product_template__auto_export_selection__yes
+#: model:ir.model.fields.selection,name:connector_20bananas.selection__res_partner__auto_export_selection__yes
+msgid "Yes"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,help:connector_20bananas.field_bananas_binding_product_pricelist_item__percent_price
+#: model:ir.model.fields,help:connector_20bananas.field_bananas_binding_product_pricelist_item__price_discount
+msgid "You can apply a mark-up by setting a negative discount."
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner__zip
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner_pricelist__zip
+msgid "Zip"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model,name:connector_20bananas.model_bananas_binding_product_blacklist
+msgid "bananas.binding.product.blacklist"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model,name:connector_20bananas.model_bananas_binding_product_pricelist
+msgid "bananas.binding.product.pricelist"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model,name:connector_20bananas.model_bananas_binding_product_pricelist_item
+msgid "bananas.binding.product.pricelist.item"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model,name:connector_20bananas.model_bananas_binding_product_product
+msgid "bananas.binding.product.product"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model,name:connector_20bananas.model_bananas_binding_product_whitelist
+msgid "bananas.binding.product.whitelist"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model,name:connector_20bananas.model_bananas_binding_res_partner
+msgid "bananas.binding.res.partner"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model,name:connector_20bananas.model_bananas_binding_res_partner_pricelist
+msgid "bananas.binding.res.partner.pricelist"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model,name:connector_20bananas.model_bananas_binding_sale_order
+msgid "bananas.binding.sale.order"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner__cod_comercial_20_bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner_pricelist__cod_comercial_20_bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_res_partner__cod_comercial_20_bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_res_users__cod_comercial_20_bananas
+msgid "¿Código comercial en 20 bananas?"
+msgstr ""
+
+#. module: connector_20bananas
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner__is_comercial
+#: model:ir.model.fields,field_description:connector_20bananas.field_bananas_binding_res_partner_pricelist__is_comercial
+#: model:ir.model.fields,field_description:connector_20bananas.field_res_partner__is_comercial
+#: model:ir.model.fields,field_description:connector_20bananas.field_res_users__is_comercial
+msgid "¿Es un Comercial en 20 Bananas?"
+msgstr ""
