@@ -38,7 +38,7 @@ class ResPartnerMapper(Component):
                 [("bananas_id", "=", record["codcomercial"])]
             )
             if user_id:
-                return {"user:is": user_id}
+                return {"user_id": user_id}
 
     @mapping
     def compute_delivery_days_ids(self, record):
