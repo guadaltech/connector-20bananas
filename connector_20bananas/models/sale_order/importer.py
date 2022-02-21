@@ -186,5 +186,8 @@ class SaleOrderLineMapper(Component):
                     )
                     % (record["unidad"])
                 )
-            return {"product_uom": product.uom_id.id, "product_packaging": packages.id}
+            return {
+                "product_uom": product.uom_id.id,
+                "product_packaging_id": packages.id,
+            }
         return {"product_uom": unidad.id}
