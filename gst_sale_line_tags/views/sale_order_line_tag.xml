@@ -7,7 +7,7 @@
             <form>
                 <group name="basic_info" string="Tag Line State">
                     <field name="name" />
-                    <field name="html_color" widget="color" />
+                     <field name="color" widget="color_picker" />
                 </group>
             </form>
         </field>
@@ -19,7 +19,7 @@
         <field name="arch" type="xml">
             <tree>
                 <field name="name" />
-                <field name="html_color" widget="color" />
+                <field name="color" widget="color_picker" />
             </tree>
         </field>
     </record>
