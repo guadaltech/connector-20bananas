@@ -93,7 +93,7 @@ class ProductProductMapper(Component):
                         ("product_id", "=", producto.odoo_id.id),
                     ]
                 )
-                if not package and record["unidadesxbulto"] < 1.0
+                if not package and record["unidadesxbulto"] < 1.0:
                         package = self.env["product.packaging"].create(
                             {
                                 "name": record["unidadbulto"],
