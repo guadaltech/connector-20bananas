@@ -1,0 +1,120 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* gst_sale_line_tags
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 15.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-02-28 13:04+0000\n"
+"PO-Revision-Date: 2022-02-28 14:10+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.0.1\n"
+
+#. module: gst_sale_line_tags
+#: model:ir.model.fields,field_description:gst_sale_line_tags.field_sale_order_line_tag__color
+msgid "Color"
+msgstr "Color"
+
+#. module: gst_sale_line_tags
+#: model:ir.model.fields,field_description:gst_sale_line_tags.field_sale_order_line_tag__create_uid
+msgid "Created by"
+msgstr "Creado por"
+
+#. module: gst_sale_line_tags
+#: model:ir.model.fields,field_description:gst_sale_line_tags.field_sale_order_line_tag__create_date
+msgid "Created on"
+msgstr "Creado en"
+
+#. module: gst_sale_line_tags
+#: model:ir.model.fields,field_description:gst_sale_line_tags.field_sale_order_line_tag__display_name
+msgid "Display Name"
+msgstr "Nombre mostrado"
+
+#. module: gst_sale_line_tags
+#: model:ir.model.fields,help:gst_sale_line_tags.field_product_category__sequence
+#: model:ir.model.fields,help:gst_sale_line_tags.field_sale_order_line__order
+msgid "Gives the sequence order when displaying a list of product categories."
+msgstr "Dar el orden de la secuencia en el que mostrar la lista de categorías de productos."
+
+#. module: gst_sale_line_tags
+#: model:ir.model.fields,field_description:gst_sale_line_tags.field_sale_order_line_tag__id
+msgid "ID"
+msgstr ""
+
+#. module: gst_sale_line_tags
+#: model:ir.model.fields,field_description:gst_sale_line_tags.field_sale_order_line_tag____last_update
+msgid "Last Modified on"
+msgstr ""
+
+#. module: gst_sale_line_tags
+#: model:ir.model.fields,field_description:gst_sale_line_tags.field_sale_order_line_tag__write_uid
+msgid "Last Updated by"
+msgstr ""
+
+#. module: gst_sale_line_tags
+#: model:ir.model.fields,field_description:gst_sale_line_tags.field_sale_order_line_tag__write_date
+msgid "Last Updated on"
+msgstr ""
+
+#. module: gst_sale_line_tags
+#: model:ir.model.fields,field_description:gst_sale_line_tags.field_sale_order_line_tag__line_ids
+msgid "Line"
+msgstr "Linea"
+
+#. module: gst_sale_line_tags
+#: model:ir.model.fields,field_description:gst_sale_line_tags.field_sale_order_line__state_tag_ids
+msgid "Line State"
+msgstr "Estado de Linea de Venta"
+
+#. module: gst_sale_line_tags
+#: model:ir.model,name:gst_sale_line_tags.model_product_category
+msgid "Product Category"
+msgstr "Categoría de producto"
+
+#. module: gst_sale_line_tags
+#: model:ir.model,name:gst_sale_line_tags.model_sale_order_line
+msgid "Sales Order Line"
+msgstr "Línea de pedido de venta"
+
+#. module: gst_sale_line_tags
+#: model:ir.model.fields,field_description:gst_sale_line_tags.field_product_category__sequence
+#: model:ir.model.fields,field_description:gst_sale_line_tags.field_sale_order_line__order
+msgid "Sequence"
+msgstr "Secuencia"
+
+#. module: gst_sale_line_tags
+#: model:ir.ui.menu,name:gst_sale_line_tags.sale_order_line_tag_menu
+msgid "State Tag Sale Line "
+msgstr "Etiqueta de Estado de Lienas "
+
+#. module: gst_sale_line_tags
+#: model_terms:ir.ui.view,arch_db:gst_sale_line_tags.sale_order_line_tag_form
+msgid "Tag Line State"
+msgstr "Etiqueta de Linea de Estado"
+
+#. module: gst_sale_line_tags
+#: model:ir.model.fields,field_description:gst_sale_line_tags.field_sale_order_line_tag__name
+msgid "Tag Name"
+msgstr "Nombre Etiqueta"
+
+#. module: gst_sale_line_tags
+#: model:ir.model.constraint,message:gst_sale_line_tags.constraint_sale_order_line_tag_name_uniq
+msgid "Tag name already exists !"
+msgstr "¡Nombre de la Etiqueta ya existe!"
+
+#. module: gst_sale_line_tags
+#: model:ir.model,name:gst_sale_line_tags.model_sale_order_line_tag
+msgid "sale.order.line.tag"
+msgstr "etiquetas de Estado Lineas"
+
+#. module: gst_sale_line_tags
+#: model:ir.actions.act_window,name:gst_sale_line_tags.sale_order_line_tag_action
+msgid "sale.order.line.tag.action"
+msgstr "acción de la Etiquetas Estado Lineas"

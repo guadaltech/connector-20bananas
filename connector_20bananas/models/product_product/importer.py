@@ -1,13 +1,11 @@
 import base64
 
-from logging import getLogger
 
 import requests
 
 from odoo.addons.component.core import Component
 from odoo.addons.connector.components.mapper import mapping
 
-_logger = getLogger(__name__)
 
 
 class ProductProductBatchImporter(Component):
@@ -81,7 +79,6 @@ class ProductProductMapper(Component):
     @mapping
     def compute_packaging_ids(self, record):
         packaging_ids = []
-        _logger.info("Esta es la catidad 1 antes" + record["unidadesxbulto"])
         if (
             "unidadbulto" in record
             and "unidadesxbulto" in record
@@ -98,7 +95,6 @@ class ProductProductMapper(Component):
                         ("product_id", "=", producto.odoo_id.id),
                     ]
                 )
-                _logger.info("Esta es la catidad 1 despues" + record["unidadesxbulto"])
                 if not package and record["unidadesxbulto"] != "0.00":
                         package = self.env["product.packaging"].create(
                             {
@@ -108,7 +104,6 @@ class ProductProductMapper(Component):
                             }
                         )
                         packaging_ids.append(package.id)
-        _logger.info("Esta es la catidad 2 antes" + record["unidadesxbulto2"])
         if (
             "unidadbulto2" in record
             and "unidadesxbulto2" in record
@@ -125,7 +120,6 @@ class ProductProductMapper(Component):
                         ("product_id", "=", producto.odoo_id.id),
                     ]
                 )
-                _logger.info("Esta es la catidad 2 despues" + record["unidadesxbulto2"])
                 if not package and record["unidadesxbulto2"] != "0.00":
                         package = self.env["product.packaging"].create(
                             {
