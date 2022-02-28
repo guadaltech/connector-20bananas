@@ -93,8 +93,7 @@ class ProductProductMapper(Component):
                         ("product_id", "=", producto.odoo_id.id),
                     ]
                 )
-                if not package:
-                    try:
+                if not package and not record["unidadesxbulto"] == 0:
                         package = self.env["product.packaging"].create(
                             {
                                 "name": record["unidadbulto"],
@@ -103,8 +102,6 @@ class ProductProductMapper(Component):
                             }
                         )
                         packaging_ids.append(package.id)
-                    except ValueError:
-                        pass
 
         if (
             "unidadbulto2" in record
@@ -122,8 +119,7 @@ class ProductProductMapper(Component):
                         ("product_id", "=", producto.odoo_id.id),
                     ]
                 )
-                if not package:
-                    try:
+                if not package and not record["unidadesxbulto2"] == 0:
                         package = self.env["product.packaging"].create(
                             {
                                 "name": record["unidadbulto2"],
@@ -132,8 +128,6 @@ class ProductProductMapper(Component):
                             }
                         )
                         packaging_ids.append(package.id)
-                    except ValueError:
-                        pass
 
             return {"packaging_ids": packaging_ids}
 
