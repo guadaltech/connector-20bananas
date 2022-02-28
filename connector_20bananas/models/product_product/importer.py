@@ -77,7 +77,12 @@ class ProductProductMapper(Component):
     @mapping
     def compute_packaging_ids(self, record):
         packaging_ids = []
-        if "unidadbulto" in record and record["vendobulto"] == "1":
+        if (
+            "unidadbulto" in record
+            and "unidadesxbulto" in record
+            and record["vendobulto"] == "1"
+            and record["unidadesxbulto"] != 0
+        ):
             producto = self.env["bananas.binding.product.product"].search(
                 [("bananas_id", "=", record["referencia"])]
             )
@@ -98,7 +103,12 @@ class ProductProductMapper(Component):
                     )
                 packaging_ids.append(package.id)
 
-        if "unidadbulto2" in record and record["vendobulto2"] == "1":
+        if (
+            "unidadbulto2" in record
+            and "unidadesxbulto2" in record
+            and record["vendobulto2"] == "1"
+            and record["unidadesxbulto2"] != 0
+        ):
             producto = self.env["bananas.binding.product.product"].search(
                 [("bananas_id", "=", record["referencia"])]
             )
