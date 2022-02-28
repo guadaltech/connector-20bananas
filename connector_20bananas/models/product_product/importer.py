@@ -81,12 +81,12 @@ class ProductProductMapper(Component):
     @mapping
     def compute_packaging_ids(self, record):
         packaging_ids = []
-        _logger.info("Esta es la catidad " + record["unidadesxbulto"])
+        _logger.info("Esta es la catidad 1 antes" + record["unidadesxbulto"])
         if (
             "unidadbulto" in record
             and "unidadesxbulto" in record
             and record["vendobulto"] == "1"
-            and record["unidadesxbulto"] != "0.0"
+            and record["unidadesxbulto"] != "0.00"
         ):
             producto = self.env["bananas.binding.product.product"].search(
                 [("bananas_id", "=", record["referencia"])]
@@ -98,8 +98,8 @@ class ProductProductMapper(Component):
                         ("product_id", "=", producto.odoo_id.id),
                     ]
                 )
-                _logger.info("Esta es la catidad " + record["unidadesxbulto"])
-                if not package and not record["unidadesxbulto"] == "0.0":
+                _logger.info("Esta es la catidad 1 despues" + record["unidadesxbulto"])
+                if not package and record["unidadesxbulto"] != "0.00":
                         package = self.env["product.packaging"].create(
                             {
                                 "name": record["unidadbulto"],
@@ -108,12 +108,12 @@ class ProductProductMapper(Component):
                             }
                         )
                         packaging_ids.append(package.id)
-        _logger.info("Esta es la catidad " + record["unidadesxbulto2"])
+        _logger.info("Esta es la catidad 2 antes" + record["unidadesxbulto2"])
         if (
             "unidadbulto2" in record
             and "unidadesxbulto2" in record
             and record["vendobulto2"] == "1"
-            and record["unidadesxbulto2"] != "0.0"
+            and record["unidadesxbulto2"] != "0.00"
         ):
             producto = self.env["bananas.binding.product.product"].search(
                 [("bananas_id", "=", record["referencia"])]
@@ -125,8 +125,8 @@ class ProductProductMapper(Component):
                         ("product_id", "=", producto.odoo_id.id),
                     ]
                 )
-                _logger.info("Esta es la catidad " + record["unidadesxbulto2"])
-                if not package and not record["unidadesxbulto2"] == "0.0":
+                _logger.info("Esta es la catidad 2 despues" + record["unidadesxbulto2"])
+                if not package and record["unidadesxbulto2"] != "0.00":
                         package = self.env["product.packaging"].create(
                             {
                                 "name": record["unidadbulto2"],
