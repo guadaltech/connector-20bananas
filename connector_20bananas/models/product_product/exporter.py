@@ -84,7 +84,7 @@ class ProductProductExporterMapper(Component):
                     res.update({"vendobulto2": 0})
             return res
         else:
-            return {"vendobulto": 1, "vendobulto2": 0}
+            return {"vendobulto": 0, "vendobulto2": 0}
 
     @mapping
     def compute_nombre(self, record):
