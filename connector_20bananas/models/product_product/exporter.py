@@ -70,7 +70,9 @@ class ProductProductExporterMapper(Component):
                             "vendobulto": 1,
                         }
                     )
-                elif package.to_20bananas_bulto_2:
+                else:
+                    res.update({"vendobulto": 0})
+                if package.to_20bananas_bulto_2:
                     res.update(
                         {
                             "unidadbulto2": package.name,
@@ -78,7 +80,11 @@ class ProductProductExporterMapper(Component):
                             "vendobulto2": 1,
                         }
                     )
+                else:
+                    res.update({"vendobulto2": 0})
             return res
+        else:
+            return {"vendobulto": 1, "vendobulto2": 0}
 
     @mapping
     def compute_nombre(self, record):
