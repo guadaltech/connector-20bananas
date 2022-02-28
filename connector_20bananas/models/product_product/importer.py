@@ -94,14 +94,17 @@ class ProductProductMapper(Component):
                     ]
                 )
                 if not package:
-                    package = self.env["product.packaging"].create(
-                        {
-                            "name": record["unidadbulto"],
-                            "product_id": producto.odoo_id.id,
-                            "qty": record["unidadesxbulto"],
-                        }
-                    )
-                packaging_ids.append(package.id)
+                    try:
+                        package = self.env["product.packaging"].create(
+                            {
+                                "name": record["unidadbulto"],
+                                "product_id": producto.odoo_id.id,
+                                "qty": record["unidadesxbulto"],
+                            }
+                        )
+                        packaging_ids.append(package.id)
+                    except ValueError:
+                        pass
 
         if (
             "unidadbulto2" in record
@@ -120,14 +123,17 @@ class ProductProductMapper(Component):
                     ]
                 )
                 if not package:
-                    package = self.env["product.packaging"].create(
-                        {
-                            "name": record["unidadbulto2"],
-                            "product_id": producto.odoo_id.id,
-                            "qty": record["unidadesxbulto2"],
-                        }
-                    )
-                packaging_ids.append(package.id)
+                    try:
+                        package = self.env["product.packaging"].create(
+                            {
+                                "name": record["unidadbulto2"],
+                                "product_id": producto.odoo_id.id,
+                                "qty": record["unidadesxbulto2"],
+                            }
+                        )
+                        packaging_ids.append(package.id)
+                    except ValueError:
+                        pass
 
             return {"packaging_ids": packaging_ids}
 
