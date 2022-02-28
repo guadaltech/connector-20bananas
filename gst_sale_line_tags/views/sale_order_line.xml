@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+    <record id="view_order_form_order_line_tag" model="ir.ui.view">
+        <field name="name">order_form_order_line_tag</field>
+        <field name="model">sale.order</field>
+        <field name="inherit_id" ref="sale.view_order_form" />
+        <field name="arch" type="xml">
+            <xpath
+                expr="//field[@name='order_line']/tree/field[@name='product_uom']"
+                position="after"
+            >
+                <field
+                    name="state_tag_ids"
+                    widget="many2many_tags"
+                    options="{'color_field': 'color'}"
+                    optional="show"
+                />
+            </xpath>
+        </field>
+    </record>
+
+    <record id="view_order_line_tree_line_tag" model="ir.ui.view">
+        <field name="name">order_tree_order_line_tag</field>
+        <field name="model">sale.order.line</field>
+        <field name="inherit_id" ref="sale.view_order_line_tree" />
+        <field name="arch" type="xml">
+            <xpath expr="//tree" position="attributes">
+                <attribute name="editable">bottom</attribute>
+            </xpath>
+            <xpath expr="//field[@name='order_id']" position="after">
+                <field
+                    name="state_tag_ids"
+                    widget="many2many_tags"
+                    options="{'color_field': 'color'}"
+                    optional="show"
+                />
+                <field name="product_uom_category_id" invisible="1" />
+            </xpath>
+        </field>
+    </record>
+
+</odoo>
