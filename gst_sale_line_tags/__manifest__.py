@@ -13,6 +13,5 @@
         "security/ir.model.access.csv",
         "views/sale_order_line.xml",
         "views/sale_order_line_tag.xml",
-        "views/product_category.xml",
     ],
 }
