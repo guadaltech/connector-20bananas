@@ -74,7 +74,7 @@ class ProductProductMapper(Component):
             if uom_id:
                 # Cambiamos el nombre en principio para que sea nuestra referencia
                 uom_id.write({"name": record["unidad"]})
-        return {"uom_id": uom_id.id}
+        return {"uom_id": uom_id.id, "uom_po_id": uom_id.id}
 
     @mapping
     def compute_packaging_ids(self, record):
