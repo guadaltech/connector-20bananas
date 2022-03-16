@@ -110,7 +110,8 @@ class BananasCRUDAdapter(Component):
                 % (res["description"])
             )
         data = res["records"]
-        _logger.info("this is de data that we reciever from API : " + data)
+        _logger.info("this is de data that we reciever from API : ")
+        _logger.info(data)
         return data
 
     def search_read(self, filters=None, attributes=None):
