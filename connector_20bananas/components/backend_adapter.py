@@ -118,6 +118,7 @@ class BananasCRUDAdapter(Component):
                 res = response.json()
                 if res['numRecords'] > 0:
                     data.append(res["records"])
+                    i = i+1
                 else:
                     break
 
