@@ -23,11 +23,11 @@ class BananasBackendAdapter:
         self.api_key = api_key
         self.endpoint = endpoint
 
-    def connect(self, crudoperation, reference, playload=None):
+    def connect(self, crudoperation, reference, page=1, playload=None):
         if not playload:
             headers = {"apikey": self.api_key}
         else:
-            headers = {"apikey": self.api_key, "Content-type": "aplicatio/json"}
+            headers = {"apikey": self.api_key, "Content-type": "aplicatio/json", "page": page}
             playload = json.dumps([playload])
         if reference:
             return requests.request(
@@ -94,13 +94,13 @@ class BananasCRUDAdapter(Component):
         if attributes is None:
             attributes = dict()
         response = self.api.connect("GET", "", {})
-
         _logger.debug(
             "Requested ReadMultiple with filters {filters} and attributes"
             " {attributes}".format(filters=filters, attributes=attributes)
         )
 
         res = response.json()
+        data = []
         if res["response"] == "ERROR":
             raise UserError(
                 _(
@@ -109,7 +109,18 @@ class BananasCRUDAdapter(Component):
                 )
                 % (res["description"])
             )
-        data = res["records"]
+        if res["totalRecords"] > 1000:
+            data.append(res["records"])
+            num_page = round(res["totalRecords"]/1000) + 1
+            i = 2
+            while i < num_page:
+                response = self.api.connect("GET", "", i, {})
+                res = response.json()
+                if res['numRecords'] > 0:
+                    data.append(res["records"])
+                else:
+                    break
+
         _logger.info("this is de data that we reciever from API : ")
         _logger.info(data)
         return data
