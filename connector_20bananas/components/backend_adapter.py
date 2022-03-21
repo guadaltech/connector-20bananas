@@ -23,7 +23,7 @@ class BananasBackendAdapter:
         self.api_key = api_key
         self.endpoint = endpoint
 
-    def connect(self, crudoperation, reference, page= 1, playload=None):
+    def connect(self, crudoperation, reference, playload=None, page=1, ):
         if not playload:
             if page:
                 headers = {"apikey": self.api_key, "page": str(page)}
@@ -117,14 +117,14 @@ class BananasCRUDAdapter(Component):
             )
         data.extend(res["records"])
         if res["totalRecords"] > 1000:
-            num_page = round(res["totalRecords"]/1000) + 1
+            num_page = round(res["totalRecords"] / 1000) + 1
             i = 2
             while i <= num_page:
-                response = self.api.connect("GET", "", i, {})
+                response = self.api.connect("GET", "", {}, i)
                 res = response.json()
                 if res['numRecords'] > 0:
                     data.extend(res["records"])
-                    i = i+1
+                    i = i + 1
                 else:
                     break
 
