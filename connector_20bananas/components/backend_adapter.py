@@ -25,9 +25,9 @@ class BananasBackendAdapter:
 
     def connect(self, crudoperation, reference, page=1, playload=None):
         if not playload:
-            headers = {"apikey": self.api_key, "page": page}
+            headers = {"apikey": self.api_key, "page": str(page)}
         else:
-            headers = {"apikey": self.api_key, "Content-type": "aplicatio/json", "page": page}
+            headers = {"apikey": self.api_key, "Content-type": "aplicatio/json", "page": str(page)}
             playload = json.dumps([playload])
         if reference:
             return requests.request(
