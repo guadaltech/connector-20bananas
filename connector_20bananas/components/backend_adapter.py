@@ -113,7 +113,7 @@ class BananasCRUDAdapter(Component):
         if res["totalRecords"] > 1000:
             num_page = round(res["totalRecords"]/1000) + 1
             i = 2
-            while i < num_page:
+            while i <= num_page:
                 response = self.api.connect("GET", "", i, {})
                 res = response.json()
                 if res['numRecords'] > 0:
