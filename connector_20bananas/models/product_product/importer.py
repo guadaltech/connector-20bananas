@@ -37,6 +37,7 @@ class ProductProductMapper(Component):
         ("descripcion", "description"),
         ("precio", "lst_price"),
         ("codigosbarra", "barcode"),
+        ("referencia", "default_code")
     ]
 
     @mapping
