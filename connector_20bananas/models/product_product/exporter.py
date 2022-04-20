@@ -54,7 +54,7 @@ class ProductProductExporterMapper(Component):
                 "foto": self.env["ir.config_parameter"].sudo().get_param("web.base.url")
                 + "/web/image?model=product.template&id="
                 + str(record["odoo_id"].product_tmpl_id.id)
-                + "&field=image_128"
+                + "&field=image_256"
             }
 
     @mapping

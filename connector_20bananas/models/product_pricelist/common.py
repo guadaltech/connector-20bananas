@@ -48,7 +48,7 @@ class BananasBindingProductPricelistItem(models.Model):
             filters = {}
         with backend.work_on(self._name) as work:
             importer = work.component(usage="batch.importer")
-            return importer.with_delay().run(filters=filters)
+            return importer.run(filters=filters)
 
 
 class ProductPricelist(models.Model):
@@ -120,7 +120,7 @@ class ProductPricelist(models.Model):
     def cron_export_product_rate_bananas(self):
         models = self.env["product.pricelist"].search([("auto_export", "=", True)])
         for model in models:
-            model.with_delay().acction_export()
+            model.acction_export()
 
 
 class ProductPricelistItem(models.Model):

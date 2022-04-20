@@ -6,7 +6,6 @@ _logger = getLogger(__name__)
 
 
 class BananasImporter(AbstractComponent):
-
     _name = "bananas.importer"
     _inherit = ["base.importer", "base.bananas.component"]
 

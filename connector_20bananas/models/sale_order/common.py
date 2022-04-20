@@ -23,7 +23,7 @@ class BananasBindingSaleOrder(models.Model):
             filters = {}
         with backend.work_on(self._name) as work:
             importer = work.component(usage="batch.importer")
-            return importer.with_delay().run(filters=filters)
+            return importer.run(filters=filters)
 
 
 class SaleOrder(models.Model):
